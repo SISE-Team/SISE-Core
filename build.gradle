@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'local.sise'
+base { archivesName = 'SISE-Core' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+neoForge {
+    version = neo_version
+    runs {
+        client { client(); gameDirectory = file('../test-sise-core-client') }
+        server { server(); gameDirectory = file('../test-sise-core-server'); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; gameDirectory = file('../test-sise-core-gametest') }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { sise_core { sourceSet sourceSets.main } }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+def metadata = [version: project.version.toString()]
+processResources { inputs.properties metadata; filesMatching('META-INF/neoforge.mods.toml') { expand metadata } }

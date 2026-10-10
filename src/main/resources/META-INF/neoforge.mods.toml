@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="sise_core"
+version="${version}"
+displayName="SISE Core"
+authors="viking602"
+description="SISE Core rebuilt for Minecraft 26.1.2: materials, personal spaces and focused optimizations."
+[[dependencies.sise_core]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+side="BOTH"
+[[dependencies.sise_core]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.114,26.2)"
+side="BOTH"
+[[mixins]]
+config="sise_core.mixins.json"

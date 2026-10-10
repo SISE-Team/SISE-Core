@@ -1,0 +1,126 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "base": "minecraft:block/obsidian",
+    "core": "minecraft:block/crying_obsidian",
+    "ring": "minecraft:block/end_portal_frame_top",
+    "particle": "minecraft:block/obsidian"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#base"
+        },
+        "up": {
+          "texture": "#base"
+        },
+        "north": {
+          "texture": "#base"
+        },
+        "south": {
+          "texture": "#base"
+        },
+        "west": {
+          "texture": "#base"
+        },
+        "east": {
+          "texture": "#base"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        4,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ring"
+        },
+        "up": {
+          "texture": "#ring"
+        },
+        "north": {
+          "texture": "#ring"
+        },
+        "south": {
+          "texture": "#ring"
+        },
+        "west": {
+          "texture": "#ring"
+        },
+        "east": {
+          "texture": "#ring"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        6,
+        4
+      ],
+      "to": [
+        12,
+        14,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#core"
+        },
+        "up": {
+          "texture": "#core"
+        },
+        "north": {
+          "texture": "#core"
+        },
+        "south": {
+          "texture": "#core"
+        },
+        "west": {
+          "texture": "#core"
+        },
+        "east": {
+          "texture": "#core"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  }
+}

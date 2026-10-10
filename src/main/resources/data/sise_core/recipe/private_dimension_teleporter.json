@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OEO",
+    "ODO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "E": "minecraft:ender_eye",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "sise_core:private_dimension_teleporter",
+    "count": 1
+  }
+}

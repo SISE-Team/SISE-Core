@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "local.sise.core.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "SpaceServerAccess",
+    "SpaceTravelMixin",
+    "FilePackIndexMixin"
+  ],
+  "client": [
+    "DamageParticleLimitMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

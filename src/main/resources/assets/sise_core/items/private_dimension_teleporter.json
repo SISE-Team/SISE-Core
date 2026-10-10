@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "sise_core:item/private_dimension_teleporter"
+  }
+}

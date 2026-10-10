@@ -1,0 +1,8 @@
+.gradle/
+build/
+run*/
+*.log
+tool/
+tools/
+docs/
+*.ps1
