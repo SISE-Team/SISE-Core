@@ -69,7 +69,7 @@ public abstract class OrbMixin {
 
     @WrapMethod(method="repairPlayerItems",require=1,allow=1)
     private int sise$safeMending(ServerPlayer player,int amount,Operation<Integer> original) {
-        if (!XpFlags.enabled || amount<=Short.MAX_VALUE) return original.call(player,amount);
+        if (amount<=Short.MAX_VALUE) return original.call(player,amount);
         // Retain vanilla equipment selection and repair effects while bounding int products.
         int remaining=amount;
         while (remaining>0) {

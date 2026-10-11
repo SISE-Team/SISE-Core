@@ -29,7 +29,7 @@
 
 ## 排查与验证
 
-添加 JVM 参数 `-Dsise.core.xp.disabled=true` 并重启，可关闭合并、单球奖励、快速拾取、精度修复与收集器适配。大球存档保护仍生效。
+添加 JVM 参数 `-Dsise.core.xp.disabled=true` 并重启，可关闭合并、单球奖励、快速拾取和等级精度修复。大球存档保护、整数溢出保护和已有大球的安全修补、收集仍生效。
 
 ```powershell
 .\gradlew.bat build runGameTestServer

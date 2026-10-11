@@ -37,8 +37,8 @@ public abstract class PlayerXpMixin {
 
     @WrapOperation(method="giveExperiencePoints",at=@At(value="INVOKE",target="Lnet/minecraft/util/Mth;clamp(III)I"),require=1,allow=1)
     private int sise$saturateTotal(int sum,int min,int max,Operation<Integer> original,@Local(argsOnly=true) int amount) {
-        if (!XpFlags.enabled) return original.call(sum,min,max);
         var player=(Player)(Object)this;
-        return (int)Math.clamp((long)player.totalExperience+amount,(long)min,(long)max);
+        int safeSum=(int)Math.clamp((long)player.totalExperience+amount,(long)min,(long)max);
+        return original.call(safeSum,min,max);
     }
 }

@@ -19,7 +19,8 @@ public abstract class EnderIoXpMixin {
     @WrapMethod(method="handleEntity(Lnet/minecraft/world/entity/ExperienceOrb;)V",require=1,allow=1)
     private void sise$wholePoints(ExperienceOrb orb,Operation<Void> original) {
         if (orb.isRemoved()) return;
-        if (!XpFlags.enabled || ((OrbAccess)orb).sise$orbCount()!=1 || orb.getValue()<=0) { original.call(orb); return; }
+        // Existing bulk orbs still need overflow protection after the optimization is disabled.
+        if ((!XpFlags.enabled && orb.getValue()<=Short.MAX_VALUE) || ((OrbAccess)orb).sise$orbCount()!=1 || orb.getValue()<=0) { original.call(orb); return; }
         var machine=(BlockEntity)(Object)this;
         var level=machine.getLevel();
         if (level==null) return;

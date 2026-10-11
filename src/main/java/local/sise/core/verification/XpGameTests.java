@@ -140,6 +140,12 @@ public final class XpGameTests {
                 XpFlags.enabled=false;ExperienceOrb.award(h.getLevel(),pos(h),100);
                 h.assertTrue(orbs(h).stream().allMatch(o->o.getValue()<100),"vanilla denominations restored");
                 h.assertValueEqual(orbs(h).stream().mapToInt(o->o.getValue()*((OrbAccess)o).sise$orbCount()).sum(),100,"disabled path keeps total");
+                var p=CoreGameTests.player(h,"DisabledBulk");var item=mending(h);p.setItemSlot(EquipmentSlot.MAINHAND,item);
+                orb(h,1_000_000).playerTouch(p);
+                h.assertValueEqual(item.getDamageValue(),0,"existing bulk orbs still repair safely when disabled");
+                h.assertValueEqual(p.totalExperience,999_400,"disabled bulk pickup retains excess");
+                p.giveExperiencePoints(Integer.MAX_VALUE);
+                h.assertValueEqual(p.totalExperience,Integer.MAX_VALUE,"disabled path still protects integer overflow");
             } finally {XpFlags.enabled=enabled;}
         });
         if(ModList.get().isLoaded("curios"))tests.put("xp_curios_mending_large_int",XpGameTests::curios);
@@ -166,6 +172,11 @@ public final class XpGameTests {
     private static List<ExperienceOrb> orbs(GameTestHelper h){return h.getLevel().getEntitiesOfClass(ExperienceOrb.class,AABB.ofSize(pos(h),4,4,4),Entity::isAlive);}
     private static ItemStack mending(GameTestHelper h){var item=new ItemStack(Items.DIAMOND_SWORD);item.enchant(h.getLevel().registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.MENDING),1);item.setDamageValue(1200);return item;}
     private static void curios(GameTestHelper h){
+        boolean enabled=XpFlags.enabled;
+        try {for(boolean state:new boolean[]{true,false}){XpFlags.enabled=state;curiosMending(h);}}
+        finally {XpFlags.enabled=enabled;}
+    }
+    private static void curiosMending(GameTestHelper h){
         try {
             var p=CoreGameTests.player(h,"Curios");var item=mending(h);var orb=orb(h,Integer.MAX_VALUE);
             var handlerClass=Class.forName("top.theillusivec4.curios.common.inventory.DynamicStackHandler");
@@ -202,7 +213,10 @@ public final class XpGameTests {
             collect.invoke(emptyMachine,complete);collect.invoke(emptyMachine,complete);
             h.assertTrue(complete.isRemoved(),"full collection consumes orb");
             h.assertValueEqual(emptyTank.getAmountAsInt(0),200,"removed orb cannot fill twice");
-            var large=orb(h,Integer.MAX_VALUE);collect.invoke(emptyMachine,large);
+            var large=orb(h,Integer.MAX_VALUE);
+            boolean enabled=XpFlags.enabled;
+            try{XpFlags.enabled=false;collect.invoke(emptyMachine,large);}
+            finally{XpFlags.enabled=enabled;}
             h.assertValueEqual(large.getValue(),Integer.MAX_VALUE-(Integer.MAX_VALUE-200)/20,"maximum-value orb retains excess");
             h.assertValueEqual(emptyTank.getAmountAsInt(0),Integer.MAX_VALUE/20*20,"EnderIO fluid count never wraps");
         } catch(ReflectiveOperationException e){throw new RuntimeException(e);}
