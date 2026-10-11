@@ -19,6 +19,8 @@ SISE Core 的代码与原创文档采用 [MIT](LICENSE)。保留 Project01 的�
 
 社区来源固定为 [CFPA 提交 7196729](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/tree/719672954d9df4ea51877e3d5ce2912148273682)。详细说明见[内置汉化声明](src/main/resources/META-INF/sise-localization/NOTICE.md)。
 
+[Re-Avaritia 的项目声明](https://www.curseforge.com/minecraft/mc-mods/re-avaritia)区分代码的 MIT 与资源的 CC BY-NC-SA 4.0。来源清单保留 JAR 中的代码许可声明，并另行记录资源许可。
+
 ## 名称与依赖
 
 Minecraft、NeoForge 及其他模组名称与商标归其各自权利人所有。本仓库没有打包 Minecraft 或其他依赖模组的可执行文件。构建使用的 Gradle Wrapper 保留其原有声明。

@@ -14,6 +14,7 @@ Core 在启动与资源重载时自动启用内置汉化包。玩家选择「简
 | `localization/reviewed/` | 初次导入时审核过的英文短语与译文记录。 |
 | `localization/fallback-en/<命名空间>.json` | 模组缺少英文资源的已声明文本，例如已注册名称或配置项。 |
 | `localization/english-reference.json` | 与已提交汉化对应的英文快照，用于检查格式参数。 |
+| `localization/source-notes.json` | 补充 JAR 许可声明未区分的资源许可及其公开来源。 |
 | `src/main/resources/localization/assets/` | 最终打包的语言资源。 |
 | `src/main/resources/META-INF/sise-localization/` | 来源、协议、署名与命名空间清单。 |
 

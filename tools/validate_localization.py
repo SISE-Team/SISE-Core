@@ -74,6 +74,7 @@ for entries in provenance.values():
         if '!assets/' in source and not Path(source.split('!')[0]).name.startswith('SISE-Core'):
             mod_sources.setdefault(source.split('!')[0], []).append(key)
 source_records = []
+source_notes = json.loads((PROJECT / 'localization/source-notes.json').read_text('utf-8'))
 for source, keys in sorted(mod_sources.items()):
     jar = Path(source)
     record = {'sourceJar': jar.name, 'sha256': hashlib.sha256(jar.read_bytes()).hexdigest(), 'languageKeys': sorted(keys)}
@@ -85,12 +86,15 @@ for source, keys in sorted(mod_sources.items()):
                 record['mods'] = [{k: m[k] for k in ('modId', 'displayName', 'authors', 'displayURL') if k in m} for m in metadata.get('mods', [])]
                 break
         for name in z.namelist():
-            if name.endswith('/') or not re.search(r'(?:^|/)(?:license|notice|copying)', name, re.I):
+            if Path(name).suffix.lower() not in {'', '.txt', '.md', '.rst', '.license'}:
+                continue
+            if name.endswith('/') or not re.fullmatch(r'(?:licen[sc]e|notice|copying)(?:[ _-].*)?(?:\.(?:txt|md|rst))?', Path(name).name, re.I):
                 continue
             target = meta / 'mod-resource-licenses' / re.sub(r'[^a-zA-Z0-9_.-]', '_', jar.name) / name
             assert target.resolve().is_relative_to(meta.resolve())
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(z.read(name))
+    record.update(source_notes.get(jar.name, {}))
     source_records.append(record)
 (meta / 'mod-resource-sources.json').write_text(json.dumps(source_records, ensure_ascii=False, indent=2) + '\n', 'utf-8')
 public_provenance = {

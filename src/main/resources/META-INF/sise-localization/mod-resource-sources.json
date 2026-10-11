@@ -64,7 +64,9 @@
         "authors": "cnlimiter, IAFEnvoy, Asek3, MikhailTapio, cu6, NadienDev",
         "displayURL": "https://www.curseforge.com/minecraft/mc-mods/re-avaritia"
       }
-    ]
+    ],
+    "resourceLicense": "CC BY-NC-SA 4.0",
+    "resourceLicenseSourceURL": "https://www.curseforge.com/minecraft/mc-mods/re-avaritia"
   },
   {
     "sourceJar": "[森罗物语·兼容] kaleidoscope_compat-2.9.7-sise-cookery16.2.jar",
