@@ -1,0 +1,6 @@
+{
+  "bagus_lib.config.aprilFeature.tooltip": "Enable April Feature. [true / false]",
+  "bagus_lib.config.aprilFeatureAlway.tooltip": "Enable April Feature Alway. [true / false]",
+  "bagus_lib.config.playableFirstPerson.tooltip": "Enable First Person Animation(When you using model change mod. should be turn off). [true / false]",
+  "bagus_lib.config.shakeCameraForVanilla.tooltip": "Enable the camera shake for vanilla mobs. [true / false]"
+}

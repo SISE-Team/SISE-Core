@@ -1,0 +1,11 @@
+{
+  "WARNING!": "警告！",
+  "- %s: available space is %s%%": "- %s：剩余空间为 %s%%",
+  "- %s: available types are low.": "- %s：可用类型槽位不足。",
+  "Ignore Warning": "忽略警告",
+  "Storage warning types": "存储警告类型",
+  "Back": "返回",
+  "Enable or disable capacity warnings per resource type": "按资源类型启用或禁用容量警告",
+  "AE2 Storage Warnings Guide": "AE2 存储警告指南",
+  "Capacity warnings for ME cells": "ME 存储元件容量警告"
+}

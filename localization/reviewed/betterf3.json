@@ -1,0 +1,8 @@
+{
+  "%s fps / %s fps %s": "%s 帧/秒 / %s 帧/秒 %s",
+  "Performance Optimizations": "性能优化",
+  "Cache module lines and only refresh when values change.": "缓存模块文本，仅在数值改变时刷新。",
+  "Minecraft": "Minecraft",
+  "FPS / TPS (Alt+F3)": "帧率 / 刻率（Alt+F3）",
+  "FPS / TPS (F3+2)": "帧率 / 刻率（F3+2）"
+}

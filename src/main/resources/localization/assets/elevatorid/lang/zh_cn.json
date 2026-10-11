@@ -1,0 +1,13 @@
+{
+  "elevatorid.message.missing_xp": "你的经验不足，无法使用电梯",
+  "elevatorid.subtitle.camouflage": "电梯：伪装",
+  "screen.elevatorid.elevator": "电梯选项",
+  "screen.elevatorid.elevator.directional": "定向",
+  "screen.elevatorid.elevator.directional_east": "东",
+  "screen.elevatorid.elevator.directional_north": "北",
+  "screen.elevatorid.elevator.directional_south": "S",
+  "screen.elevatorid.elevator.directional_west": "西",
+  "screen.elevatorid.elevator.hide_arrow": "隐藏箭头",
+  "screen.elevatorid.elevator.reset_camo": "移除伪装",
+  "tag.item.elevatorid.elevators": "电梯"
+}

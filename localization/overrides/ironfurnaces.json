@@ -1,0 +1,20 @@
+{
+  "_comment": "更新",
+  "item.ironfurnaces.allthemodium_furnace": "万金熔炉",
+  "item.ironfurnaces.copper_furnace": "铜熔炉",
+  "item.ironfurnaces.crystal_furnace": "水晶熔炉",
+  "item.ironfurnaces.diamond_furnace": "钻石熔炉",
+  "item.ironfurnaces.emerald_furnace": "绿宝石熔炉",
+  "item.ironfurnaces.gold_furnace": "金熔炉",
+  "item.ironfurnaces.heater": "无线热量接收器",
+  "item.ironfurnaces.iron_furnace": "铁熔炉",
+  "item.ironfurnaces.million_furnace": "彩虹熔炉",
+  "item.ironfurnaces.netherite_furnace": "下界合金熔炉",
+  "item.ironfurnaces.obsidian_furnace": "黑曜石熔炉",
+  "item.ironfurnaces.silver_furnace": "银熔炉",
+  "item.ironfurnaces.unobtainium_furnace": "难得素熔炉",
+  "item.ironfurnaces.vibranium_furnace": "振金熔炉",
+  "tooltip.ironfurnaces.heaterX": "X 坐标：",
+  "tooltip.ironfurnaces.heaterY": "Y 坐标：",
+  "tooltip.ironfurnaces.heaterZ": "Z 坐标："
+}

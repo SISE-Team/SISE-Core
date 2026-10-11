@@ -1,0 +1,184 @@
+No power	供能不足
+The ME network can't power the next pattern dispatch.	ME 网络无法为下一次样板派发供能。
+Increase network power generation or stored energy.	提高网络发电能力或增加储能。
+No channel	无可用频道
+Pattern Providers for this pattern do not have an available channel.	提供此样板的样板供应器没有可用频道。
+Free a channel or fix the channel route to the providers.	腾出频道，或修复供应器的频道连接。
+No target	无目标
+No usable destination was found for this pattern.	未找到此样板可用的输入目标。
+Connect a compatible machine or inventory to an enabled provider side.	在供应器启用的一侧连接兼容的机器或容器。
+Input blocked	输入受阻
+The destination is not accepting this pattern's inputs.	目标无法接收此样板的输入材料。
+Check blocking mode, input space, filters, and machine sides.	检查阻挡模式、输入空间、过滤器和机器侧面设置。
+Locked	已锁定
+Pattern Provider crafting locks are preventing the next batch.	样板供应器的合成锁阻止了下一批处理。
+Check redstone conditions or return the previous result to its provider.	检查红石条件，或将上一批产物送回对应供应器。
+This status applies to scheduled batches; active batches may still finish.	此状态适用于待派发批次；正在处理的批次仍可能完成。
+AE2 Crafting Time	AE2 合成耗时
+Ctrl-Click for TTC details	Ctrl + 点击查看耗时详情
+%s observations · average: 1 %s / %s ticks · latest: 1 %s / %s ticks · %s %s/s	%s 次观测 · 平均：1 %s / %s 刻 · 最近：1 %s / %s 刻 · %s %s/秒
+%s observations · %s %s/s	%s 次观测 · %s %s/秒
+ · low confidence	 · 可信度低
+ · using %s/%s	 · 使用 %s/%s
+No TTC data for %s yet	尚无 %s 的耗时数据
+Cleared TTC stats for %s	已清除 %s 的耗时统计
+%s %s: no output for %s (typically %s)	%s %s：已有 %s 未产出（通常耗时 %s）
+%s %s: %s%% chance per operation; no output for %s	%s %s：每次操作有 %s%% 产出概率；已有 %s 未产出
+Chance output	概率产物
+is delayed	发生延迟
+has no power	供能不足
+has no space	存储空间不足
+Click to show the provider in the world	点击在世界中标示供应器
+Pattern Provider	样板供应器
+That provider link has expired.	该供应器链接已过期。
+Highlighting %s at %s in %s	正在高亮 %s，位置 %s，维度 %s
+%s x%s: %s	%s ×%s：%s
+low	低
+low (outliers filtered)	低（已过滤异常值）
+low (<3 samples)	低（样本不足 3 个）
+Double-Click for highlighting Pattern Provider in a world	双击在世界中高亮样板供应器
+No data yet	暂无数据
+Ctrl-Alt-Click to clear TTC stats	Ctrl + Alt + 点击清除耗时统计
+AE2 order	AE2 默认顺序
+TTC: longest first	耗时：从长到短
+TTC: shortest first	耗时：从短到长
+Sort by TTC	按耗时排序
+Job Accuracy	任务预测准确度
+Confidence	可信度
+Latest Job	最近任务
+Samples (per unit)	样本数（每单位）
+Effective throughput includes queueing and return transport. New samples arrive while crafting; the limit isn't the confidence threshold.	有效吞吐量包含排队和回传时间。合成过程中会获得新样本；样本上限并非可信度阈值。
+Throughput	吞吐量
+TTC	预计合成耗时
+Used Samples	已采用样本
+TTC: %s	预计耗时：%s
+A: Available / C: Crafting / S: Scheduled; -: none	A：可用 / C：合成中 / S：待派发；-：无
+A: Available / C: To Craft; both values: Available / To Craft	A：可用 / C：待合成；两个数值表示：可用 / 待合成
+Delayed	已延迟
+This recipe produces the promised output with a %s%% chance per operation. AE2 may wait for missing output.	此配方每次操作有 %s%% 概率产出样板声明的物品。AE2 可能持续等待未产出的物品。
+AE2 is still waiting for %s items.	AE2 仍在等待 %s 个物品。
+No output for %ss.	已有 %s 秒未产出。
+Check the machine and output path. Remove random byproducts from promised outputs or stock them separately.	检查机器和输出路径。将随机副产物移出样板声明的产物列表，或单独备货。
+Chance output: this recipe has a %s%% output chance.	概率产物：此配方有 %s%% 的产出概率。
+Check whether this pattern promises a chance-based output.	检查此样板是否声明了概率产物。
+No provider	无供应器
+No connected Pattern Provider currently offers this pattern.	当前没有已连接的样板供应器提供此样板。
+Restore a connected provider or put the pattern back.	恢复供应器连接，或重新放入样板。
+No space	空间不足
+The ME network can't accept this item.	ME 网络无法接收此物品。
+Free space in storage cells or add more storage.	腾出存储元件的空间，或增加存储容量。
+Waiting	等待中
+items	个物品
+item	个物品
+mana	魔力
+%s/%s jobs fully covered · MAPE %s%% · actual/TTC %sx · error %ss · avg coverage %s%%	%s/%s 个任务完全覆盖 · 平均绝对百分比误差 %s%% · 实际/预计耗时 %s 倍 · 误差 %s 秒 · 平均覆盖率 %s%%
+%s jobs tracked, no fully covered plan yet · avg coverage %s%%	已跟踪 %s 个任务，尚无完全覆盖的计划 · 平均覆盖率 %s%%
+TTC %ss · wall %ss · ticks %ss · coverage %s/%s	预计耗时 %s 秒 · 实际时间 %s 秒 · 刻计时 %s 秒 · 覆盖 %s/%s
+%ss	%s 秒
+%s %s/t, %s %s/s	%s %s/刻，%s %s/秒
+Typical	通常耗时
+Things to try:	可尝试：
+• Try more parallel Pattern Providers or machines	• 增加并行样板供应器或机器
+  %s slots are free, but only %s batch is running.	  有 %s 个空闲槽位，但只有 %s 批正在运行。
+  %s slots are free, but only %s batches are running.	  有 %s 个空闲槽位，但只有 %s 批正在运行。
+• Try speeding up the active processing machine	• 提升当前处理机器的速度
+  This craft is taking %sx its usual time.	  此次合成已耗费通常时间的 %s 倍。
+• Try adding Crafting Co-Processors	• 增加合成协处理器
+  All %s parallel slots were recently busy, and work is still waiting.	  最近全部 %s 个并行槽位均被占用，仍有任务在等待。
+Recurrent: %s	循环依赖：%s
+This ingredient is missing because its crafting recipe depends on itself, directly or through other recipes.	此材料缺失，因为其配方直接或通过其他配方依赖自身。
+Stored variant	已存储变种
+The ME network stores this item with different saved data.	ME 网络存储的是具有不同保存数据的此物品。
+Re-encode the pattern using the item the network actually produces or stores.	使用网络实际生产或存储的物品重新编码样板。
+AE2 Crafting Time Guide	AE2 合成耗时指南
+AE2 Crafting Time Options	AE2 合成耗时选项
+Server	服务器
+Server options are loading	正在加载服务器选项
+Displays	显示
+Warnings	警告
+Text shadow	文字阴影
+Show emoji	显示表情符号
+Badge background	标记背景
+Controls	操作
+General	通用
+Diagnostics	诊断
+Integrations	模组联动
+Advanced	高级
+Reset group	重置此组
+Reset all	全部重置
+Default: On. Changes are saved with Done.	默认：开启。点击“完成”保存更改。
+Show or use %s. Default: %s. Applies after Done and is saved on this client.	显示或使用 %s。默认：%s。点击“完成”生效并保存在此客户端。
+Controls %s for this world. Default: %s. Applies after Done; only the owner or an operator can save.	控制此世界的 %s。默认：%s。点击“完成”生效；仅世界主人或管理员可保存。
+Six-digit RGB color. Default: %s. Applies after Done on this client.	六位 RGB 颜色。默认：%s。点击“完成”后在此客户端生效。
+Range: 0-255. Default: 176. Applies after Done on this client.	范围：0–255。默认：176。点击“完成”后在此客户端生效。
+Choices: AE2 order, shortest first, longest first. Default: longest first. Applies after Done.	可选：AE2 默认顺序、从短到长、从长到短。默认：从长到短。点击“完成”后生效。
+Default: %s. Range: %s. Applies after Done for this world.	默认：%s。范围：%s。点击“完成”后对当前世界生效。
+Crafting Plan row times	合成计划各行耗时
+Crafting Plan total	合成计划总耗时
+Crafting Status row times	合成状态各行耗时
+Compact crafting amounts	紧凑合成数量
+Crafting Status total	合成状态总耗时
+Crafting CPU card totals	合成 CPU 卡片总耗时
+Crafting Tree times	合成树耗时
+ME Requester times	ME 请求器耗时
+Fast-to-slow colors	快慢耗时配色
+Prediction accuracy	预测准确度
+Detailed tooltips	详细提示
+Control hints	操作提示
+Waiting status	等待状态
+Collecting-data status	数据收集状态
+Delayed status	延迟状态
+Chance output status (experimental)	概率产物状态（实验性）
+Recurrent ingredient status	循环依赖状态
+No provider status	无供应器状态
+No power status	供能不足状态
+No space status	空间不足状态
+No channel status	无频道状态
+No target status	无目标状态
+Input blocked status	输入受阻状态
+Private craft warning chat	私聊合成警告
+Crafting Plan sort control	合成计划排序操作
+Crafting Status sort control	合成状态排序操作
+CPU list sort control	CPU 列表排序操作
+TTC details click	耗时详情点击操作
+Reset history click	重置历史点击操作
+Locate provider click	定位供应器点击操作
+Fast TTC color	快速耗时颜色
+Middle TTC color	中等耗时颜色
+Slow TTC color	缓慢耗时颜色
+Waiting text color	等待文字颜色
+Delayed text color	延迟文字颜色
+Collecting text color	收集文字颜色
+Total TTC color	总耗时颜色
+Badge opacity (0-255)	标记不透明度（0–255）
+Default Plan sort	默认计划排序
+Default Status sort	默认状态排序
+Save failed	保存失败
+Saving...	保存中……
+Reload	重新加载
+Read only: server operator permission required	只读：需要服务器管理员权限
+Unavailable on this installation	当前安装环境不可用
+Profiling and TTC	性能分析与合成耗时
+Allow crafting suspension	允许暂停合成
+Suspended	已暂停
+Save learned history	保存已学习的历史数据
+Record prediction accuracy	记录预测准确度
+Track waiting to start	跟踪等待启动状态
+Detect delayed outputs	检测产物延迟
+Detect chance outputs (experimental)	检测概率产物（实验性）
+Detect recurrent ingredients	检测循环依赖材料
+Detect no provider	检测无供应器
+Detect no power	检测供能不足
+Detect no space	检测空间不足
+Detect no channel	检测无频道
+Detect no target	检测无目标
+Detect blocked input	检测输入受阻
+TTC detail and reset chat	耗时详情与重置聊天提示
+AdvancedAE CPU profiling	AdvancedAE CPU 性能分析
+NeoEco CPU profiling	NeoEco CPU 性能分析
+AE2 Lightning Tech CPU profiling	AE2 Lightning Tech CPU 性能分析
+Applied Mekanistics chemicals	应用通用机械化学品
+Retained samples (1-100)	保留样本数（1–100）
+Outlier multiplier (1-1000)	异常值倍率（1–1000）
+Minimum idle seconds (1-3600)	最短空闲秒数（1–3600）
+Typical time multiplier (1-1000)	通常耗时倍率（1–1000）

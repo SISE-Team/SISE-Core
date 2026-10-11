@@ -1,0 +1,7 @@
+{
+  "advanced_ae.configuration.throughputMonitorCacheSize": "吞吐量监控器缓存大小",
+  "exported_setting.advanced_ae.allowed_output_sides": "可用面",
+  "gui.upgrades.advanced_ae.Pick-CraftUpgrade": "点选合成",
+  "item.advanced_ae.quantum_crafter_terminal_part": "量子合成器终端",
+  "key.category.advanced_ae.category": "高级AE"
+}

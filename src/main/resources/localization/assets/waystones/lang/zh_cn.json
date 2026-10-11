@@ -1,0 +1,8 @@
+{
+  "chat.waystones.destination_out_of_bounds": "目标位置在世界边界之外。",
+  "chat.waystones.requirements_not_met.specific": "失败 · %s",
+  "gui.waystones.manage_waystones.hide_waystone": "隐藏传送石",
+  "gui.waystones.manage_waystones.show_waystone": "显示传送石",
+  "waystones.configuration.rules.warpSettings": "传送设置",
+  "waystones.configuration.rules.warpSettings.tooltip": "warpRequirements 配置中使用的变量列表。"
+}

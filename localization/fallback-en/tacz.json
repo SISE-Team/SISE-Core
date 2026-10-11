@@ -1,0 +1,8 @@
+{
+  "attribute.name.tacz.bullet_resistance": "Bullet Resistance",
+  "block.tacz.workbench_a": "Ammo Workbench",
+  "block.tacz.workbench_b": "Gun Workbench",
+  "block.tacz.workbench_c": "Attachment Workbench",
+  "entity.tacz.kinetic_bullet": "Bullet",
+  "item.tacz.ammo_box": "Ammo Box"
+}

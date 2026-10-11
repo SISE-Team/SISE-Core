@@ -1,0 +1,18 @@
+{
+  "configuration.mekanismgenerators.capacity.advanced_solar_generator.energy": "高级太阳能发电机储能容量",
+  "configuration.mekanismgenerators.capacity.advanced_solar_generator.energy.tooltip": "高级太阳能发电机的基础储能容量",
+  "configuration.mekanismgenerators.capacity.bio_generator.energy": "生物发电机储能容量",
+  "configuration.mekanismgenerators.capacity.bio_generator.energy.tooltip": "生物发电机的基础储能容量",
+  "configuration.mekanismgenerators.capacity.heat_generator.energy": "热力发电机储能容量",
+  "configuration.mekanismgenerators.capacity.heat_generator.energy.tooltip": "热力发电机的基础储能容量",
+  "configuration.mekanismgenerators.capacity.solar_generator.energy": "太阳能发电机储能容量",
+  "configuration.mekanismgenerators.capacity.solar_generator.energy.tooltip": "太阳能发电机的基础储能容量",
+  "configuration.mekanismgenerators.capacity.wind_generator.energy": "风力发电机储能容量",
+  "configuration.mekanismgenerators.capacity.wind_generator.energy.tooltip": "风力发电机的基础储能容量",
+  "configuration.mekanismgenerators.server.generator.bio.fuel_per_item": "每个生物燃料的流体量",
+  "configuration.mekanismgenerators.server.generator.bio.fuel_per_item.tooltip": "一个生物燃料向发电机储罐加入的流体量（mB），决定燃烧刻数和总发电量。",
+  "configuration.mekanismgenerators.server.turbine.energy_conversion.steam": "每单位蒸汽焦耳数",
+  "configuration.mekanismgenerators.server.turbine.energy_conversion.steam.tooltip": "工业涡轮每单位蒸汽每刻最多产生的焦耳数。",
+  "configuration.mekanismgenerators.server.turbine.energy_conversion.steam_divisor": "蒸汽除数",
+  "configuration.mekanismgenerators.server.turbine.energy_conversion.steam_divisor.tooltip": "将蒸汽流量除以此值，再乘以每单位蒸汽焦耳数，计算发电速率。"
+}

@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.torohealth.option.enabled.tooltip": "Enable ToroHealth",
+  "text.autoconfig.torohealth.option.hudOptions.showEntity.tooltip": "Show entity",
+  "text.autoconfig.torohealth.option.hudOptions.showHUD.tooltip": "Show HUD"
+}

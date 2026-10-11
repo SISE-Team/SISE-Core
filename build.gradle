@@ -18,4 +18,9 @@ neoForge {
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
 def metadata = [version: project.version.toString()]
-processResources { inputs.properties metadata; filesMatching('META-INF/neoforge.mods.toml') { expand metadata } }
+processResources {
+    inputs.properties metadata
+    filesMatching('META-INF/neoforge.mods.toml') { expand metadata }
+    from('LICENSE') { into 'META-INF'; rename { 'LICENSE_sise_core' } }
+    from('NOTICE.md') { into 'META-INF'; rename { 'NOTICE_sise_core.md' } }
+}

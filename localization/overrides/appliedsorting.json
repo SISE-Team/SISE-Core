@@ -1,0 +1,7 @@
+{
+  "gui.tooltips.appliedsorting.DefaultSort": "交由 AE2 排序",
+  "gui.tooltips.appliedsorting.InternalId": "内部 ID",
+  "gui.tooltips.appliedsorting.ResourceLocation": "资源位置",
+  "gui.tooltips.appliedsorting.SortOverridden": "由应用排序覆盖",
+  "gui.tooltips.appliedsorting.SortOverride": "排序覆盖"
+}

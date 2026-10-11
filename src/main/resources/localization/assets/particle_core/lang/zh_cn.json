@@ -1,0 +1,23 @@
+{
+  "particle_core.particle_core_config": "粒子核心",
+  "particle_core.particle_core_config.AGGRESSIVE": "激进",
+  "particle_core.particle_core_config.AGGRESSIVE.desc": "根据粒子中心点进行剔除，性能最好，但刚进入画面且显示不足一半的粒子也可能被剔除。通常难以察觉；若发现问题，请使用边界框模式。",
+  "particle_core.particle_core_config.BOUNDING_BOX": "边界框",
+  "particle_core.particle_core_config.BOUNDING_BOX.desc": "根据粒子边界框剔除，兼顾性能提升，并减少屏幕边缘粒子突然消失的情况。",
+  "particle_core.particle_core_config.MOBS": "生物粒子",
+  "particle_core.particle_core_config.MOBS.desc": "禁用非玩家生物产生的药水粒子",
+  "particle_core.particle_core_config.NO_CULLING": "不剔除",
+  "particle_core.particle_core_config.NO_CULLING.desc": "完全禁用粒子剔除。除非确有需要，否则不建议使用。",
+  "particle_core.particle_core_config.OTHER_PLAYER": "其他玩家粒子",
+  "particle_core.particle_core_config.OTHER_PLAYER.desc": "禁用其他玩家产生的药水粒子，不影响自己",
+  "particle_core.particle_core_config.asynchronousTicking": "粒子逻辑异步",
+  "particle_core.particle_core_config.asynchronousTicking.desc": "§6性能影响：中等§r\n\n[true 或 false] 启用时（默认），粒子会在客户端主循环之外异步更新，可能引起不稳定。\n\n发生不稳定时，粒子核心会尝试自动禁用此功能；若未成功，请手动关闭。\n\n粒子较少时，无论此设置如何，都会同步更新，以避免异步调度的额外开销。",
+  "particle_core.particle_core_config.cullingBehavior": "剔除方式",
+  "particle_core.particle_core_config.cullingBehavior.desc": "§c性能影响：高§r\n\n粒子核心剔除粒子的方式。关闭剔除会对性能造成较大影响。",
+  "particle_core.particle_core_config.cullingBlacklist": "粒子剔除黑名单",
+  "particle_core.particle_core_config.cullingBlacklist.desc": "§3性能影响：不直接影响性能§r\n\n不参与剔除的粒子，可避免部分粒子被剔除后显示异常，尤其是在激进模式下。\n\n使用激进剔除时，特别大的粒子通常适合加入黑名单。",
+  "particle_core.particle_core_config.maxParticlesPerSheet": "粒子数量上限",
+  "particle_core.particle_core_config.maxParticlesPerSheet.desc": "§6性能影响：中等§r\n\n[0 到约 20 亿] 设置同时存在的粒子数量上限，默认为 16,384。",
+  "particle_core.particle_core_config.particleRenderDistanceMultiplier": "粒子渲染距离",
+  "particle_core.particle_core_config.particleRenderDistanceMultiplier.desc": "§6性能影响：中等§r\n\n[0.1 到 1.0] 粒子渲染距离相对于方块渲染距离的倍率。默认为 1，即完整渲染距离。\n\n例如：渲染距离为 12 区块时，设为 0.5 将只渲染 6 区块内的粒子。"
+}

@@ -1,12 +1,14 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="MIT"
+license="MIT (code); bundled translation licenses: META-INF/sise-localization/NOTICE.md"
+issueTrackerURL="https://github.com/SISE-Team/SISE-Core/issues"
 [[mods]]
 modId="sise_core"
 version="${version}"
 displayName="SISE Core"
+displayURL="https://github.com/SISE-Team/SISE-Core"
 authors="viking602"
-description="SISE Core rebuilt for Minecraft 26.1.2: materials, personal spaces and focused optimizations."
+description="SISE Core rebuilt for Minecraft 26.1.2: materials, personal spaces, focused optimizations and an automatically loaded Simplified Chinese mod translation pack."
 [[dependencies.sise_core]]
 modId="minecraft"
 type="required"

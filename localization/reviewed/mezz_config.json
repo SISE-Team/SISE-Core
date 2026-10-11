@@ -1,0 +1,18 @@
+{
+  "Valid Values: %s": "有效值：%s",
+  "Default Value: %s": "默认值：%s",
+  "Requires a world restart to take effect.": "需要重新加载世界才能生效。",
+  "Requires a game restart to take effect.": "需要重启游戏才能生效。",
+  "File Watching": "文件监听",
+  "Controls automatic config file watching and reload timing.": "控制自动配置文件监听和重载时机。",
+  "Automatic File Watching": "自动文件监听",
+  "Automatically watch config files and reload them when they are changed outside the game.": "自动监听配置文件，在游戏外修改文件后重新加载。",
+  "Change Settling Delay": "更改稳定等待时间",
+  "Milliseconds to wait after the last filesystem event before reloading changed config files.": "最后一次文件系统事件后，重新加载配置前等待的毫秒数。",
+  "Missing Directory Retry Interval": "缺失目录重试间隔",
+  "Milliseconds between attempts to start watching config directories that do not exist yet.": "配置目录尚未存在时，尝试开始监听的毫秒间隔。",
+  "Logging": "日志",
+  "Controls optional MezzConfig diagnostic logging.": "控制可选的 MezzConfig 诊断日志。",
+  "Log Untranslated Keys": "记录未翻译键",
+  "Log category and value localization keys that are missing from the active language. Enabled by default in development environments.": "记录当前语言缺失的分类和配置值翻译键。开发环境默认开启。"
+}

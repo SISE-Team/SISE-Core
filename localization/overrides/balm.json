@@ -1,0 +1,6 @@
+{
+  "config.jade.plugin_balm.jade": "Balm",
+  "gui.balm.configuration.validation.negative_infinity": "负无穷",
+  "gui.balm.configuration.validation.positive_infinity": "正无穷",
+  "gui.balm.configuration.validation.range": "范围：%s 至 %s"
+}

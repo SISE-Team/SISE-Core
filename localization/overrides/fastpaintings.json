@@ -1,0 +1,6 @@
+{
+  "fastpaintings.configuration.general": "通用",
+  "fastpaintings.configuration.general.nbt_drop": "保留 NBT 掉落",
+  "fastpaintings.configuration.general.nbt_drop.description": "画掉落时始终保留其画作变种",
+  "fastpaintings.configuration.general.nbt_drop.tooltip": "画掉落时保留其画作变体。\n可选值： OFF, ALWAYS, WHEN_PLACED_WITH_NBT"
+}

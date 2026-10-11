@@ -1,0 +1,5 @@
+{
+  "More HUD Overlays...": "更多调试信息显示……",
+  "Opens the vanilla Debug Options screen (F3+F6), which can show more debug labels on the F3 screen or as persistent overlays.": "打开原版调试选项界面（F3+F6），可在 F3 界面或常驻显示中添加更多调试标签。",
+  "%s FPS": "%s 帧/秒"
+}

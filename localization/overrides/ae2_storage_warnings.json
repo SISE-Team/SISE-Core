@@ -1,0 +1,12 @@
+{
+  "gui.ae2_storage_warnings.warning.bytes": "- %s：剩余空间为 %s%%",
+  "gui.ae2_storage_warnings.warning.ignore": "忽略警告",
+  "gui.ae2_storage_warnings.warning.title": "警告！",
+  "gui.ae2_storage_warnings.warning.types": "- %s：可用类型槽位不足。",
+  "gui.ae2_storage_warnings.warning_types.back": "返回",
+  "gui.ae2_storage_warnings.warning_types.button": "存储警告类型",
+  "gui.ae2_storage_warnings.warning_types.button.detail": "按资源类型启用或禁用容量警告",
+  "gui.ae2_storage_warnings.warning_types.title": "存储警告类型",
+  "item.ae2_storage_warnings.guide": "AE2 存储警告指南",
+  "tooltip.ae2_storage_warnings.guide": "ME 存储元件容量警告"
+}

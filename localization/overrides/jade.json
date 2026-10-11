@@ -1,0 +1,5 @@
+{
+  "config.jade.plugin_jade.loot_table": "战利品表",
+  "config.jade.plugin_jade.loot_table_desc": "需要管理员权限。",
+  "key.category.jade.main": "Jade"
+}

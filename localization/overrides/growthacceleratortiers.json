@@ -1,0 +1,21 @@
+{
+  "command.growthacceleratortiers.boosted_position": "强化数据：%s",
+  "command.growthacceleratortiers.directional_position": "定向数据：%s",
+  "command.growthacceleratortiers.info": "在此方块上找到以下数据：",
+  "command.growthacceleratortiers.modify": "已修改此方块的以下数据：",
+  "command.growthacceleratortiers.no_data": "此方块没有数据",
+  "growthacceleratortiers.configuration.boosted_growth_accelerator": "强化生长加速器",
+  "growthacceleratortiers.configuration.boosted_idle_power_consumption": "强化空闲能耗",
+  "growthacceleratortiers.configuration.boosted_internal_energy_multiplier": "强化内部能量倍率",
+  "growthacceleratortiers.configuration.boosted_speed_multiplier": "强化速度倍率",
+  "growthacceleratortiers.configuration.cranked_growth_accelerator": "超频生长加速器",
+  "growthacceleratortiers.configuration.cranked_idle_power_consumption": "超频空闲能耗",
+  "growthacceleratortiers.configuration.cranked_internal_energy_multiplier": "超频内部能量倍率",
+  "growthacceleratortiers.configuration.cranked_speed_multiplier": "超频速度倍率",
+  "growthacceleratortiers.configuration.directional_growth_accelerator": "定向生长加速器",
+  "growthacceleratortiers.configuration.directional_idle_power_consumption": "定向空闲能耗",
+  "growthacceleratortiers.configuration.directional_internal_energy_multiplier": "定向内部能量倍率",
+  "growthacceleratortiers.configuration.directional_speed_multiplier": "定向速度倍率",
+  "growthacceleratortiers.configuration.enable_conflicts": "启用冲突",
+  "growthacceleratortiers.configuration.general": "通用"
+}

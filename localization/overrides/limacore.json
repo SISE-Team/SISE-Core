@@ -1,0 +1,22 @@
+{
+  "attribute.limacore.damage_multiplier": "伤害倍率",
+  "attribute.limacore.knockback_multiplier": "击退倍率",
+  "direction.limacore.down": "下",
+  "direction.limacore.east": "东",
+  "direction.limacore.north": "北",
+  "direction.limacore.south": "南",
+  "direction.limacore.up": "上",
+  "direction.limacore.west": "西",
+  "io_access.limacore.disabled": "已禁用",
+  "io_access.limacore.output_only": "仅输出",
+  "reduction_type.limacore.absorption": "伤害吸收",
+  "reduction_type.limacore.armor": "护甲",
+  "reduction_type.limacore.innate_resistance": "固有抗性",
+  "reduction_type.limacore.mob_effects": "状态效果",
+  "relative_side.limacore.bottom": "底部",
+  "relative_side.limacore.front": "前面",
+  "relative_side.limacore.left": "左侧",
+  "relative_side.limacore.rear": "后面",
+  "relative_side.limacore.right": "右侧",
+  "relative_side.limacore.top": "顶部"
+}

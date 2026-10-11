@@ -1,4 +1,8 @@
 * text=auto
+*.py text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.properties text eol=lf
 *.java text eol=lf
 *.json text eol=lf
 *.gradle text eol=lf
@@ -6,5 +10,8 @@
 *.png binary
 *.nbt binary
 *.jar binary
+src/main/resources/META-INF/sise-localization/legacy-notices/** -text
+src/main/resources/META-INF/sise-localization/mod-resource-licenses/** -text
+src/main/resources/META-INF/sise-localization/CFPA-CC-BY-NC-SA-4.0.txt -text
 gradlew text eol=lf
 *.bat text eol=crlf

@@ -1,0 +1,6 @@
+{
+  "item.infinite_lava_cell.infinite_lava_cell": "无限熔岩存储元件",
+  "itemGroup.infinite_lava_cell": "无限熔岩元件",
+  "tooltip.infinite_lava_cell.infinite": "无限熔岩源",
+  "tooltip.infinite_lava_cell.insert": "不接受熔岩输入"
+}

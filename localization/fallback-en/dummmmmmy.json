@@ -1,0 +1,23 @@
+{
+  "dummmmmmy.configuration.boss_mode.health.tooltip": "How much health the dummy should have when in boss mode (when given a banner)\n Default: 200\n Range: 1 ~ 1000000",
+  "dummmmmmy.configuration.boss_mode.health_bar_color.tooltip": "Health bar color when in boss mode\nAllowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE",
+  "dummmmmmy.configuration.damage_numbers.crit_bold.tooltip": "Make critical hit damage numbers bold",
+  "dummmmmmy.configuration.damage_numbers.crit_mode.tooltip": "How crits should be shown\nAllowed Values: OFF, COLOR, COLOR_AND_MULTIPLIER",
+  "dummmmmmy.configuration.damage_numbers.damage_type_colors.tooltip": "Color to use for each damage type. Keys are damage type ids, or #tags, and are tested in insertion order",
+  "dummmmmmy.configuration.damage_numbers.enabled.tooltip": "Floating damage numbers popping off the dummy every time it's hit",
+  "dummmmmmy.configuration.damage_numbers.full_bright.tooltip": "Display the numbers fullbright, so they stay readable in the dark",
+  "dummmmmmy.configuration.damage_numbers.show_hearths.tooltip": "Show hearths instead of damage dealt? (1 hearth = two damage)",
+  "dummmmmmy.configuration.general.DPS_mode.tooltip": "Does dps message update dynamically or will it only appear after each parse?\nAllowed Values: DYNAMIC, STATIC, OFF",
+  "dummmmmmy.configuration.general.disable_equipment_damage.tooltip": "Enable this to prevent your equipment from getting damaged when attacking the dummy",
+  "dummmmmmy.configuration.general.dummy_decoy.tooltip": "Makes monsters target a dummy that is wearing a player head",
+  "dummmmmmy.configuration.general.xp_per_damage_on_hit.tooltip": "Makes dummy drop xp when hit. Training yay! Depends on damage done\n Default: 0.0\n Range: 0.0 ~ 100.0",
+  "dummmmmmy.configuration.mobs_damage_numbers.damage_mode.tooltip": "Show damage taken by regular mobs too, not just by dummies\nAllowed Values: ALL_ENTITIES, ALL_PLAYERS, LOCAL_PLAYER, NONE",
+  "dummmmmmy.configuration.mobs_damage_numbers.healing_mode.tooltip": "Show healing received by regular mobs\nAllowed Values: ALL_ENTITIES, ALL_PLAYERS, LOCAL_PLAYER, NONE",
+  "dummmmmmy.configuration.scarecrow.enabled.tooltip": "Equip a dummy with a pumpkin to make it act as a scarecrow, keeping animals away and stopping mobs from spawning around it",
+  "dummmmmmy.configuration.scarecrow.mobs_blacklist.tooltip": "Animal entities that will not be scared",
+  "dummmmmmy.configuration.scarecrow.mobs_whitelist.tooltip": "All animal entities will be scared. add here additional ones that are not included",
+  "dummmmmmy.configuration.scarecrow.scare_radius.tooltip": "Scaring radius\n Default: 12\n Range: 0 ~ 100",
+  "dummmmmmy.configuration.visuals.animation_intensity.tooltip": "How much the dummy swings in degrees with respect to the damage dealt\n Default: 0.75\n Range: 0.0 ~ 2.0",
+  "dummmmmmy.configuration.visuals.hay_particles.tooltip": "Show hay particles when dealing damage",
+  "dummmmmmy.configuration.visuals.texture.tooltip": "Skin used by the dummy\nAllowed Values: DEFAULT, ORIGINAL, ALTERNATIVE, DUNGEONS"
+}

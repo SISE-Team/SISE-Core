@@ -1,0 +1,6 @@
+{
+  "visual_set_edit.gui.condition.inventory.tag": "标签",
+  "visual_set_edit.gui.effect.ability.WATER_WALK": "水面行走",
+  "visual_set_edit.gui.effect.tag.display": "标签：%s",
+  "visual_set_edit.tooltip.hold_ctrl": "[Ctrl] 条件"
+}

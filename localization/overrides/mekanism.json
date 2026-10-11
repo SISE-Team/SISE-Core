@@ -1,0 +1,16 @@
+{
+  "chemical.mekanism.attribute.fuel.energy_max_total": " - 最大输出：%1$s",
+  "chemical.mekanism.attribute.fuel.max_burn": " - 最大燃烧速率：%1$s",
+  "configuration.mekanism.capacity.laser_amplifier.energy": "激光增幅器储能容量",
+  "configuration.mekanism.capacity.laser_amplifier.energy.tooltip": "激光增幅器的基础储能容量",
+  "configuration.mekanism.capacity.laser_tractor_beam.energy": "激光牵引器储能容量",
+  "configuration.mekanism.capacity.laser_tractor_beam.energy.tooltip": "激光牵引器的基础储能容量",
+  "configuration.mekanism.capacity.sps_port.energy": "SPS 端口储能容量",
+  "configuration.mekanism.capacity.sps_port.energy.tooltip": "SPS 端口的基础储能容量，同时决定最大输出速率。",
+  "configuration.mekanism.capacity.teleporter.energy": "传送器储能容量",
+  "configuration.mekanism.capacity.teleporter.energy.tooltip": "传送器的基础储能容量",
+  "configuration.mekanism.general.dynamic_tank.capacity": "每方块容量",
+  "configuration.mekanism.general.dynamic_tank.capacity.tooltip": "动态储罐每个方块贡献的流体容量（mB）。总容量 = 容积 × mBPerTank",
+  "constants.mekanism.forge": "NeoForge",
+  "temperature.mekanism.ambient.short": "STP"
+}

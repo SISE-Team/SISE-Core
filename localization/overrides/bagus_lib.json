@@ -1,0 +1,9 @@
+{
+  "bagus_lib.config.aprilFeature.tooltip": "启用愚人节功能。[true / false]",
+  "bagus_lib.config.aprilFeatureAlway": "始终启用愚人节功能！",
+  "bagus_lib.config.aprilFeatureAlway.tooltip": "始终启用愚人节功能。[true / false]",
+  "bagus_lib.config.playableFirstPerson.tooltip": "启用第一人称动画；使用玩家模型修改模组时应关闭。[true / false]",
+  "bagus_lib.config.shakeCameraForVanilla.tooltip": "为原版生物启用镜头震动。[true / false]",
+  "item.bagus_lib.book": "书",
+  "item.bagus_lib.mini_bagu_spawn_egg": "迷你巴古刷怪蛋"
+}

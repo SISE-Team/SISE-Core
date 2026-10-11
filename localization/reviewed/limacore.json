@@ -1,0 +1,22 @@
+{
+  "Damage Multiplier": "伤害倍率",
+  "Knockback Multiplier": "击退倍率",
+  "Down": "下",
+  "East": "东",
+  "North": "北",
+  "South": "南",
+  "Up": "上",
+  "West": "西",
+  "Disabled": "已禁用",
+  "Output Only": "仅输出",
+  "Absorption": "伤害吸收",
+  "Armor": "护甲",
+  "Innate Resistance": "固有抗性",
+  "Mob Effects": "状态效果",
+  "Bottom": "底部",
+  "Front": "前面",
+  "Left": "左侧",
+  "Rear": "后面",
+  "Right": "右侧",
+  "Top": "顶部"
+}

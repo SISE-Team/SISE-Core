@@ -1,0 +1,5 @@
+{
+  "sodium-extra.option.more_hud_overlays": "更多调试信息显示……",
+  "sodium-extra.option.more_hud_overlays.tooltip": "打开原版调试选项界面（F3+F6），可在 F3 界面或常驻显示中添加更多调试标签。",
+  "sodium-extra.overlay.fps": "%s 帧/秒"
+}

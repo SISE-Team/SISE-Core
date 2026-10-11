@@ -1,0 +1,28 @@
+name: 补充或修正汉化
+description: 提供原文与使用位置，让翻译更准确。
+title: "[汉化] "
+body:
+  - type: input
+    id: mod
+    attributes:
+      label: 模组与版本
+      description: 请同时提供 Core 版本。
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: 原文与当前译文
+      description: 提供语言键；不知道键时，提供截图或文本所在位置。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议译文
+      description: 可补充术语依据；引用第三方译文时说明来源与许可。
+  - type: textarea
+    id: context
+    attributes:
+      label: 使用位置与截图
+      description: 物品提示、菜单、配置项，或其他上下文。

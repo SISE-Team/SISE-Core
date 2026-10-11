@@ -1,0 +1,8 @@
+{
+  "block.ltxi.mesh_block": "网格方块",
+  "creative_tab.ltxi.main": "LTX 工业",
+  "death.attack.ltxi.gloom_gas_grenade": "%s 被 %s 的 %s 熄灭了",
+  "item.ltxi.upgrade_module": "升级模块",
+  "key.category.ltxi.controls": "LTX 工业",
+  "upgrade_effect.ltxi.reduction_mod": "%s %s 突破"
+}

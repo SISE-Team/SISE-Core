@@ -1,0 +1,10 @@
+{
+  "block.ftbquests.detector": "Quest Detector",
+  "block.ftbquests.loot_crate_opener": "Loot Crate Opener",
+  "block.ftbquests.screen_1": "Task Screen (1x1)",
+  "block.ftbquests.screen_3": "Task Screen (3x3)",
+  "block.ftbquests.screen_5": "Task Screen (5x5)",
+  "block.ftbquests.screen_7": "Task Screen (7x7)",
+  "item.ftbquests.barrier": "Quest Barrier",
+  "item.ftbquests.stage_barrier": "Stage Barrier"
+}

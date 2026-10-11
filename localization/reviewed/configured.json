@@ -1,0 +1,4 @@
+{
+  "Unsupported property. Edit the raw config file to change this property": "不支持此属性，请编辑原始配置文件修改。",
+  "An error occurred when updating config %s, which was sent by %s": "更新配置 %s 时发生错误，发送者：%s"
+}

@@ -1,0 +1,7 @@
+{
+  "entity.immersive_aircraft.bullet": "子弹",
+  "entity.immersive_aircraft.tiny_tnt": "小型 TNT",
+  "tag.item.immersive_aircraft.aircraft": "沉浸式飞机",
+  "tag.item.immersive_aircraft.upgrades": "飞行器升级",
+  "tag.item.immersive_aircraft.weapons": "飞行器武器"
+}

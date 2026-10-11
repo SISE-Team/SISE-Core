@@ -1,0 +1,6 @@
+{
+  "Reset all cooldown(s) across %s player(s).": "已重置 %s 名玩家的全部冷却。",
+  "Reset cooldown(s) matching %s across %s player(s).": "已重置符合 %s 的冷却，共涉及 %s 名玩家。",
+  "Added %s second(s) to cooldown %s across %s player(s).": "已增加 %s 秒到冷却 %s，共涉及 %s 名玩家。",
+  "Set cooldown %s to %s second(s) across %s player(s).": "已将冷却 %s 设为 %s 秒，共涉及 %s 名玩家。"
+}

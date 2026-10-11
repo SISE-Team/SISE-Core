@@ -1,0 +1,17 @@
+{
+  "item.enderio_evolution.construction_alloy_energy_conduit": "铁合金能量导管",
+  "item.enderio_evolution.crude_energy_conduit": "劣质能量导管",
+  "item.enderio_evolution.crystalline_energy_conduit": "晶化合金能量导管",
+  "item.enderio_evolution.crystalline_pink_slime_energy_conduit": "晶化粉红史莱姆能量导管",
+  "item.enderio_evolution.energetic_silver_energy_conduit": "充能银能量导管",
+  "item.enderio_evolution.gold_crude_energy_conduit": "镀金粗钢合金能量导管",
+  "item.enderio_evolution.melodic_chemical_conduit": "旋律合金化学品导管",
+  "item.enderio_evolution.melodic_energy_conduit": "旋律合金能量导管",
+  "item.enderio_evolution.melodic_fluid_conduit": "旋律合金流体导管",
+  "item.enderio_evolution.melodic_item_conduit": "旋律合金物品导管",
+  "item.enderio_evolution.speedy_item_conduit": "极速物品导管",
+  "item.enderio_evolution.stellar_chemical_conduit": "恒星合金化学品导管",
+  "item.enderio_evolution.stellar_energy_conduit": "恒星合金能量导管",
+  "item.enderio_evolution.stellar_fluid_conduit": "恒星合金流体导管",
+  "item.enderio_evolution.stellar_item_conduit": "恒星合金物品导管"
+}

@@ -1,0 +1,8 @@
+{
+  "Hide Waystone": "隐藏传送石",
+  "Show Waystone": "显示传送石",
+  "Failed - %s": "失败 · %s",
+  "The destination is outside the world bounds.": "目标位置在世界边界之外。",
+  "Warp Settings": "传送设置",
+  "List of variables used in the warpRequirements configuration.": "warpRequirements 配置中使用的变量列表。"
+}

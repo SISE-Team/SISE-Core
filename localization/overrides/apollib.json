@@ -1,0 +1,8 @@
+{
+  "config.apollib.back": "返回",
+  "config.apollib.back.tooltip": "关闭界面且不保存任何更改。",
+  "config.apollib.default": "默认：",
+  "config.apollib.done": "保存并关闭",
+  "config.apollib.done.tooltip": "保存更改并关闭界面。",
+  "config.apollib.export.tooltip": "将当前配置文件导出到剪贴板。"
+}

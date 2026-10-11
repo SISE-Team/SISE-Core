@@ -1,0 +1,9 @@
+{
+  "attribute.name.tacz.bullet_resistance": "子弹抗性",
+  "block.tacz.workbench_a": "弹药装配台",
+  "block.tacz.workbench_b": "枪械工作台",
+  "block.tacz.workbench_c": "配件工作台",
+  "entity.tacz.kinetic_bullet": "子弹",
+  "item.tacz.ammo_box": "弹药箱",
+  "message.tacz.pre": "§a§l[TACZ]§r "
+}

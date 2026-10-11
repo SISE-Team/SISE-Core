@@ -1,0 +1,8 @@
+{
+  "block.mattercondensertiers.advanced_matter_condenser": "高级物质冷凝器",
+  "block.mattercondensertiers.elite_matter_condenser": "精英物质冷凝器",
+  "block.mattercondensertiers.ultimate_matter_condenser": "终极物质冷凝器",
+  "itemGroup.mattercondensertiers": "物质冷凝器等级",
+  "tooltip.mattercondensertiers.multiplier": "处理倍率：%s 倍",
+  "tooltip.mattercondensertiers.tier": "等级 %s"
+}

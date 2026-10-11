@@ -1,0 +1,14 @@
+{
+  "Volume Transition": "音量过渡",
+  "Battery Integration": "电池联动",
+  "Ignore Initial Click": "忽略首次点击",
+  "Ignore accidental input when clicking on the unfocused game window.": "点击未获得焦点的游戏窗口时，忽略意外输入。",
+  "Disabled": "已禁用",
+  "In World": "在世界中",
+  "Constant": "始终",
+  "Critical Charge Threshold": "电量危急阈值",
+  "Set which battery charge level is considered critical.": "设置被视为危急的电池电量。",
+  "Show with debug overlay (F3)": "随调试界面（F3）显示",
+  "Whether the battery indicator is visible while the debug overlay is open.": "打开调试界面时是否显示电池指示器。",
+  "Library download failed": "运行库下载失败"
+}

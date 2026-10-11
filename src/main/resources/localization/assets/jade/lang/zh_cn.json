@@ -1,0 +1,10 @@
+{
+  "config.jade.plugin_jade.loot_table": "战利品表",
+  "config.jade.plugin_jade.loot_table_desc": "需要管理员权限。",
+  "config.jade.plugin_jade.registry_name.special.poi": "兴趣点：%s",
+  "gui.jade.configuration.desc2": "§f显示你所注视对象的相关信息§r。",
+  "jade.lootTable": "战利品表：%s",
+  "jade.lootTableSeed": "种子：%s",
+  "key.category.jade.main": "Jade",
+  "modmenu.nameTranslation.jade": "玉"
+}

@@ -1,0 +1,7 @@
+{
+  "kreno.config.category.gui": "界面",
+  "kreno.config.category.mixin": "Mixin",
+  "kreno.config.category.netty": "Netty",
+  "kreno.config.entry.gui.oreui": "OreUI",
+  "kreno.config.entry.netty.happyEyeballs": "Happy Eyeballs（RFC 8305）"
+}

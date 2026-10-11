@@ -1,0 +1,8 @@
+{
+  "Structure Layout Optimizer": "结构布局优化器",
+  "An attempt at optimizing jigsaw generation": "尝试优化拼图结构生成",
+  "Report a Bug": "报告问题",
+  "License": "许可证",
+  "Deduplicate shuffled template pool element list": "去除打乱后模板池元素列表的重复项",
+  "Whether to use an alternative strategy to make structure layouts generate slightly even faster than the default optimization this mod has for template pool weights. This alternative strategy works by changing the list of pieces that structures collect from the template pool to not have duplicate entries.\nThis will not break the structure generation, but it will make the structure layout different than if this config was off (breaking vanilla seed parity). The cost of speed may be worth it in large modpacks where many structure mods are using very high weight values in their template pools.\n\nPros: Get a bit more performance from high weight Template Pool Structures.\nCons: Loses parity with vanilla seeds on the layout of the structure. (Structure layout is not broken, just different)": "选择替代策略，通过移除结构从模板池选取的重复部件，进一步加快结构布局生成。\n不会破坏结构生成，但生成布局会与关闭此选项时不同，因此无法保持原版种子一致性。包含大量高权重模板池的整合包可能受益。\n\n优点：高权重模板池结构的性能略有提升。\n缺点：结构布局不再与原版种子一致；结构仍能正常生成。"
+}

@@ -1,0 +1,20 @@
+{
+  "config.extendedae_plus": "扩展AE Plus",
+  "extendedae_plus.tooltip.frequency_secondary": "频率: %d",
+  "extendedae_plus.tooltip.locked_secondary": "状态：%s",
+  "extendedae_plus.tooltip.master_mode_secondary": "模式：%s",
+  "item.extendedae_plus.assembler_matrix_crafter_plus": "超级装配矩阵合成核心",
+  "item.extendedae_plus.assembler_matrix_hybrid_plus": "超级装配矩阵混合核心",
+  "item.extendedae_plus.assembler_matrix_pattern_plus": "超级装配矩阵样板核心",
+  "item.extendedae_plus.assembler_matrix_speed_plus": "超级装配矩阵速度核心",
+  "item.extendedae_plus.disguised_block": "伪装适用方块",
+  "item.extendedae_plus.lattra_budding_fully": "无瑕的莱卓罗水晶母岩",
+  "item.extendedae_plus.lattra_budding_half": "开裂的莱卓罗水晶母岩",
+  "item.extendedae_plus.lattra_budding_hardly": "损坏的莱卓罗水晶母岩",
+  "item.extendedae_plus.lattra_budding_mostly": "有瑕的莱卓罗水晶母岩",
+  "item.extendedae_plus.lattra_crystal_block": "莱卓罗水晶块",
+  "item.extendedae_plus.lattra_crystal_bud_large": "大型莱卓罗水晶芽",
+  "item.extendedae_plus.lattra_crystal_bud_medium": "中型莱卓罗水晶芽",
+  "item.extendedae_plus.lattra_crystal_bud_small": "小型莱卓罗水晶芽",
+  "item.extendedae_plus.lattra_crystal_cluster": "莱卓罗水晶簇"
+}

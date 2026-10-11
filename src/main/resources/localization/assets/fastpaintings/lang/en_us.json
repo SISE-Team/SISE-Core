@@ -1,0 +1,3 @@
+{
+  "fastpaintings.configuration.general.nbt_drop.tooltip": "Makes paintings always drop with their painting variant\nAllowed Values: OFF, ALWAYS, WHEN_PLACED_WITH_NBT"
+}

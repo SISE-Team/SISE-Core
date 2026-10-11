@@ -1,0 +1,17 @@
+{
+  "attribute.name.generic.slashblade_damage": "拔刀剑伤害",
+  "entity.slashblade.abstract_summoned_sword": "幻影剑",
+  "entity.slashblade.blade_item_entity": "拔刀剑",
+  "entity.slashblade.blade_stand_entity": "刀挂",
+  "entity.slashblade.blistering_swords": "烈火幻影剑",
+  "entity.slashblade.drive": "幻影刃",
+  "entity.slashblade.heavy_rain_swords": "骤雨幻影剑",
+  "entity.slashblade.judgement_cut": "次元斩",
+  "entity.slashblade.place_preview_entity": "刀挂放置预览",
+  "entity.slashblade.slash_effect": "斩击效果",
+  "entity.slashblade.spiral_swords": "螺旋幻影剑",
+  "entity.slashblade.storm_swords": "暴风幻影剑",
+  "item.slashblade.muramasa.desc": "失落的村正妖刀之一。",
+  "item.slashblade.ruby.material": "刀组件「红玉」",
+  "item.slashblade.yuzukitukumo.desc": "铁木剑的篇章"
+}

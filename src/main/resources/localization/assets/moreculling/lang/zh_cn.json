@@ -1,0 +1,9 @@
+{
+  "moreculling.config.category.item_frame": "物品展示框剔除",
+  "moreculling.config.category.leaves": "树叶剔除",
+  "moreculling.config.option.dontCull": "不剔除",
+  "moreculling.config.option.dontCull.tooltip": "在此添加不应被剔除的方块 ID，例如 minecraft:bamboo",
+  "moreculling.config.option.paintingCulling": "画剔除",
+  "moreculling.config.option.paintingCulling.tooltip": "剔除画的背面和内部面",
+  "moreculling.title": "更多渲染剔除"
+}

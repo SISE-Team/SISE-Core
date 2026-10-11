@@ -1,0 +1,6 @@
+{
+  "Add Claiming Anchor": "添加领地锚点",
+  "Remove Claiming Anchor": "移除领地锚点",
+  "Remove the following claiming anchor and all claims only in its range?": "移除此领地锚点，以及仅在其范围内的全部领地？",
+  "This action cannot be undone! Anchor chunk: %1$s": "此操作无法撤销！锚点区块：%1$s"
+}

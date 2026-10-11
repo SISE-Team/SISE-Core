@@ -1,0 +1,15 @@
+{
+  "block.oritech.black_hole_inner": "Black Hole Inner Layer",
+  "block.oritech.black_hole_middle": "Black Hole Middle Layer",
+  "block.oritech.black_hole_outer": "Black Hole Outer Layer",
+  "block.oritech.quarry_beam_ring": "Quarry Beam Ring",
+  "block.oritech.reactor_cold_indicator": "Reactor Cold Indicator",
+  "block.oritech.reactor_explosion_large": "Large Reactor Explosion",
+  "block.oritech.reactor_explosion_medium": "Medium Reactor Explosion",
+  "block.oritech.reactor_explosion_small": "Small Reactor Explosion",
+  "block.oritech.reactor_hot_indicator": "Reactor Hot Indicator",
+  "block.oritech.reactor_medium_indicator": "Reactor Warm Indicator",
+  "block.oritech.superconductor_connection": "Superconductor Connection",
+  "block.oritech.transparent_item_pipe_connection": "Transparent Item Pipe Connection",
+  "entity.oritech.portal_entity": "Portal"
+}

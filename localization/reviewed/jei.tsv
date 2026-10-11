@@ -1,0 +1,241 @@
+Any Fuel	任意燃料
+Show or hide the ingredient and bookmark overlays.	显示或隐藏物品列表和书签列表。
+a GUI is open	打开界面时
+Move keyboard focus to the JEI search field.	将键盘输入焦点移到 JEI 搜索框。
+Go to the previous page in JEI overlay lists.	切换到 JEI 列表的上一页。
+Go to the next page in JEI overlay lists.	切换到 JEI 列表的下一页。
+Show or hide the bookmarked ingredients overlay.	显示或隐藏已收藏物品列表。
+Go back to the previous recipe lookup.	返回上一次配方查询。
+Next Recipe	下一个配方
+Go forward to the next recipe lookup.	前进到下一次配方查询。
+Move to the previous recipe category.	切换到上一个配方类别。
+Move to the next recipe category.	切换到下一个配方类别。
+Show the previous page of recipes in the current category.	显示当前类别的上一页配方。
+Show the next page of recipes in the current category.	显示当前类别的下一页配方。
+Close the recipe display and return to the previous screen.	关闭配方显示并返回之前的界面。
+Turn cheat mode on or off.	开启或关闭作弊模式。
+Give one copy of that ingredient.	给予一个该物品。
+hovering over an ingredient with cheat mode available	作弊模式可用且鼠标指向物品时
+Give one full stack of that ingredient.	给予一整组该物品。
+hovering over the JEI config button	鼠标指向 JEI 配置按钮时
+Turn hide ingredients mode on or off.	开启或关闭物品隐藏模式。
+Hide or unhide that ingredient.	隐藏或取消隐藏该物品。
+hovering over an ingredient	鼠标指向物品时
+Hide or unhide matching variants of that ingredient.	隐藏或取消隐藏该物品的匹配变种。
+Add or remove a bookmark for the hovered ingredient.	收藏或取消收藏鼠标指向的物品。
+hovering over JEI with the mouse	鼠标指向 JEI 时
+Show recipes that create the hovered ingredient.	显示制作鼠标所指物品的配方。
+Show recipes that use the hovered ingredient.	显示使用鼠标所指物品的配方。
+Transfer one recipe from that bookmark when recipe transfer is available.	配方填充可用时，从该书签填充一次配方。
+hovering over a JEI bookmark	鼠标指向 JEI 书签时
+Transfer as many recipes as possible from that bookmark.	从该书签尽可能多地填充配方。
+Move the hovered ghost ingredient into the focused slot when supported.	支持时，将鼠标所指的虚拟物品移入当前槽位。
+Clear the search text.	清空搜索内容。
+hovering over the JEI search field	鼠标指向 JEI 搜索框时
+Restore the previous search text.	恢复上一条搜索内容。
+the JEI search field is focused	JEI 搜索框获得输入焦点时
+Restore the next search text after going back through search history.	浏览搜索历史后，恢复下一条搜索内容。
+Copy the current recipe ID to the clipboard.	将当前配方 ID 复制到剪贴板。
+Show JEI Overlays	显示 JEI 列表
+Show or hide the ingredient and bookmark overlays for the current session. This value is not saved to the configuration file.	显示或隐藏本次会话的物品和书签列表。此设置不会保存到配置文件。
+Show JEI's ingredient and bookmark overlays.	显示 JEI 物品和书签列表。
+Hide JEI's ingredient and bookmark overlays.	隐藏 JEI 物品和书签列表。
+Show Bookmark Overlay	显示书签列表
+Show or hide the bookmark overlay for the current session when JEI overlays are enabled. This value is not saved to the configuration file.	启用 JEI 列表时，显示或隐藏本次会话的书签列表。此设置不会保存到配置文件。
+Show bookmarked ingredients when JEI overlays are enabled.	启用 JEI 列表时显示已收藏物品。
+Hide the bookmark overlay.	隐藏书签列表。
+Enable Cheat Mode	启用作弊模式
+Turn cheat mode on or off for the current session. This value is not saved to the configuration file. The server must allow JEI cheats.	开启或关闭本次会话的作弊模式。此设置不会保存到配置文件，且需要服务器允许 JEI 作弊。
+Enable cheat mode, subject to server permission.	在服务器权限允许时启用作弊模式。
+Disable cheat mode.	禁用作弊模式。
+Enable Hide Ingredients Mode	启用物品隐藏模式
+Turn ingredient hiding mode on or off for the current session. This value is not saved to the configuration file.	开启或关闭本次会话的物品隐藏模式。此设置不会保存到配置文件。
+Allow ingredients to be hidden or unhidden from JEI.	允许在 JEI 中隐藏或取消隐藏物品。
+Use ingredients normally without hiding or unhiding them.	正常使用物品，不进行隐藏或取消隐藏。
+Allow Cheat Mode for Operators	允许管理员使用作弊模式
+Allow players with operator status (/op) to use JEI cheat mode.	允许具有管理员权限（/op）的玩家使用 JEI 作弊模式。
+Allow Cheat Mode in Creative Mode	允许创造模式使用作弊模式
+Allow players in Creative Mode to use JEI cheat mode.	允许创造模式的玩家使用 JEI 作弊模式。
+Allow Cheat Mode with Give Permission	允许拥有 give 权限的玩家作弊
+Allow players who can use the /give command to use JEI cheat mode.	允许能使用 /give 命令的玩家使用 JEI 作弊模式。
+Recipe Sync Warning	配方同步警告
+Show a chat warning when the server doesn't provide synced recipes to JEI (e.g. vanilla servers, or servers without JEI installed).	服务器未向 JEI 提供同步配方时，在聊天栏显示警告，例如原版服务器或未安装 JEI 的服务器。
+Options shared by the ingredient and bookmark lists.	物品列表和书签列表共用的选项。
+Show Background	显示背景
+Show a background behind the ingredient and bookmark lists.	显示物品列表和书签列表的背景。
+Navigation Mode	导航模式
+Choose how to move through the ingredient and bookmark lists.	选择物品列表和书签列表的翻页方式。
+List Navigation	列表导航
+Choose when navigation controls are shown for both lists.	选择两种列表何时显示导航控件。
+Ingredient List Alignment	物品列表对齐方式
+Choose where the ingredient list sits when there is extra space around it.	列表周围有空余空间时，选择物品列表的放置位置。
+Bookmark List Alignment	书签列表对齐方式
+Choose where the bookmark list sits when there is extra space around it.	列表周围有空余空间时，选择书签列表的放置位置。
+Install the "MezzConfig GUI" mod to access the in-game config	安装“MezzConfig GUI”模组以使用游戏内配置界面
+This is a vanilla server. JEI is showing default recipes from your client, which may be different if the server uses datapacks. Install NeoForge or Fabric on the server, along with JEI, to show the server's recipes correctly.	这是原版服务器。JEI 当前显示客户端的默认配方，服务器使用数据包时可能与实际配方不同。在服务器安装 NeoForge 或 Fabric 及 JEI，即可正确显示服务器配方。
+Bottom Right	右下
+Place the search bar in the lower-right corner.	将搜索栏放在右下角。
+Bottom Center	底部居中
+Center the search bar at the bottom of the screen.	将搜索栏放在屏幕底部中央。
+Add cheated ingredients directly to your inventory.	将作弊获取的物品直接放入背包。
+Put cheated ingredients on your cursor, as if picked up from a slot.	将作弊获取的物品放在鼠标上，如同从槽位拿起物品。
+End of List	列表末尾
+Add new bookmarks to the end of the bookmark list.	将新书签添加到书签列表末尾。
+Front of List	列表开头
+Add new bookmarks to the front of the bookmark list.	将新书签添加到书签列表开头。
+Show lookup history on the left side of the screen.	在屏幕左侧显示查询历史。
+Show lookup history on the right side of the screen.	在屏幕右侧显示查询历史。
+Keep ingredients from the same mod together.	将同一模组的物品排在一起。
+Keep items, fluids, and other ingredient types separate.	将物品、流体和其他材料类型分别排列。
+Sort ingredients by name.	按名称排列物品。
+Creative Inventory	创造模式物品栏
+Sort items in the same order as the creative inventory.	按照创造模式物品栏的顺序排列物品。
+Keep ingredients with the same tags together.	将具有相同标签的物品排在一起。
+Sort armor by armor slot and protection.	按装备槽位和防护值排列护甲。
+Show items with higher maximum durability first.	优先显示最大耐久度更高的物品。
+Match mod names from normal search text.	在普通搜索内容中匹配模组名称。
+Match mod names only when @ is typed first, like @minecraft.	仅在输入 @ 前缀时匹配模组名称，例如 @minecraft。
+Do not search mod names.	不搜索模组名称。
+Match ingredient tags from normal search text.	在普通搜索内容中匹配物品标签。
+Match ingredient tags only when # is typed first, like #forge.	仅在输入 # 前缀时匹配物品标签，例如 #forge。
+Do not search ingredient tags.	不搜索物品标签。
+Match tooltip text from normal search text.	在普通搜索内容中匹配提示文本。
+Match tooltip text only when $ is typed first, like $damage.	仅在输入 $ 前缀时匹配提示文本，例如 $damage。
+Do not search ingredient tooltips.	不搜索物品提示文本。
+Match color names from normal search text.	在普通搜索内容中匹配颜色名称。
+Match color names only when ^ is typed first, like ^red.	仅在输入 ^ 前缀时匹配颜色名称，例如 ^red。
+Do not search ingredients by color name.	不按颜色名称搜索物品。
+Match ingredient IDs from normal search text.	在普通搜索内容中匹配物品 ID。
+Match ingredient IDs only when & is typed first, like &minecraft:stone.	仅在输入 & 前缀时匹配物品 ID，例如 &minecraft:stone。
+Do not search ingredient IDs.	不搜索物品 ID。
+Match creative inventory tab names from normal search text.	在普通搜索内容中匹配创造模式标签页名称。
+Match creative inventory tab names only when % is typed first, like %building.	仅在输入 % 前缀时匹配创造模式标签页名称，例如 %building。
+Do not search creative inventory tab names.	不搜索创造模式标签页名称。
+Move Ingredient List Away from Toasts	避让弹出通知
+Move the top-right ingredient list when a toast notification appears, so the toast does not cover it.	弹出通知出现时移动右上方的物品列表，避免通知遮挡列表。
+Move the ingredient list when toasts appear.	弹出通知出现时移动物品列表。
+Leave the ingredient list where it is.	保持物品列表位置不变。
+JEI Search Bar Position	JEI 搜索栏位置
+Choose where the JEI search bar appears.	选择 JEI 搜索栏的显示位置。
+Maximum Recipe Screen Height	配方界面最大高度
+Limit how tall the recipe screen can grow.	限制配方界面的最大高度。
+Allow cheating ingredients into hotbar slots.	允许将作弊获取的物品放入快捷栏。
+Do not cheat ingredients directly into hotbar slots.	不将作弊获取的物品直接放入快捷栏。
+Show ingredients that are hidden from the creative inventory.	显示创造模式物品栏中隐藏的物品。
+Hide ingredients that are not in the creative inventory.	隐藏创造模式物品栏中没有的物品。
+Recipes	配方
+Options for recipe pages and recipe lookup behavior.	配方页面和配方查询行为的选项。
+Show Tag Recipes	显示标签配方
+Show recipe pages for tags, so recipes that accept a group of ingredients can show every matching ingredient.	显示标签的配方页面，使接受一类材料的配方能展示所有匹配材料。
+Show recipe pages for tags.	显示标签配方页面。
+Hide recipe pages for tags.	隐藏标签配方页面。
+New Bookmark Placement	新书签位置
+Choose where newly added bookmarks appear in the bookmark list.	选择新增书签在书签列表中的位置。
+Bookmark Output as Recipe	将产物收藏为配方
+When true, pressing the bookmark key on a recipe's output will bookmark the recipe instead of the ingredient.	启用后，在配方产物上按收藏键时，将收藏整个配方。
+Drag to Rearrange Bookmarks	拖动调整书签顺序
+Allow bookmarks to be reordered by dragging them in the bookmark list.	允许在书签列表中拖动书签来调整顺序。
+Allow bookmarks to be reordered by dragging.	允许拖动调整书签顺序。
+Keep bookmarks in place while dragging.	拖动时保持书签位置。
+Show Bookmark Recipe Preview	显示书签配方预览
+Show a small recipe preview when hovering over recipe bookmarks.	鼠标指向配方书签时，显示小型配方预览。
+Show recipe previews on recipe bookmarks.	在配方书签上显示配方预览。
+Hide recipe previews on recipe bookmarks.	隐藏配方书签的配方预览。
+Show Bookmark Recipe Ingredients	显示书签配方材料
+Show the ingredients needed to craft a recipe bookmark.	显示制作书签配方所需的材料。
+Show ingredients needed by recipe bookmarks.	显示配方书签所需材料。
+Hide ingredients needed by recipe bookmarks.	隐藏配方书签所需材料。
+Require Key for Bookmark Details	按键显示书签详情
+Require the configured bookmark details key before showing extra bookmark details and transfer shortcuts.	按住配置的书签详情键时，才显示额外详情和配方填充快捷操作。
+Show extra bookmark details only while the configured key is held.	仅在按住配置按键时显示额外书签详情。
+Always show extra bookmark details.	始终显示额外书签详情。
+Show creative inventory tab names in ingredient tooltips.	在物品提示中显示创造模式标签页名称。
+Hide creative inventory tab names in ingredient tooltips.	在物品提示中隐藏创造模式标签页名称。
+Show matching ingredients for recipe tags.	显示配方标签所匹配的材料。
+Hide matching ingredients for recipe tags.	隐藏配方标签所匹配的材料。
+Hide tag contents when there is only one matching ingredient.	仅有一种匹配材料时隐藏标签内容。
+Show tag contents even when there is only one matching ingredient.	即使仅有一种匹配材料，也显示标签内容。
+Show Recipe Ingredient Summary in Tooltips	在提示中显示配方材料摘要
+Show a quick summary of ingredients needed for a recipe when hovering over the recipe output.	鼠标指向配方产物时，显示所需材料的简要摘要。
+Show the ingredient summary on recipe outputs.	在配方产物上显示材料摘要。
+Hide the ingredient summary on recipe outputs.	在配方产物上隐藏材料摘要。
+Include recipes for fluids inside items.	包含物品内部流体的配方。
+Only look up recipes for the item itself.	只查询物品本身的配方。
+Include recipes that use matching block tags.	包含使用匹配方块标签的配方。
+Only use item tags when looking up block items.	查询方块物品时，只使用物品标签。
+Show Lookup History	显示查询历史
+Show a list of ingredients recently used for recipe and use lookups.	显示最近查询配方或用途的物品列表。
+Show recent recipe and use lookups.	显示最近的配方和用途查询。
+Hide recent recipe and use lookups.	隐藏最近的配方和用途查询。
+Maximum Lookup History Rows	查询历史最大行数
+Limit how many rows of recent lookups are shown on screen.	限制屏幕上显示的最近查询行数。
+Maximum Saved Lookup History Ingredients	查询历史最大保存数量
+Limit how many recent lookup ingredients JEI remembers.	限制 JEI 记住的最近查询物品数量。
+Lookup History Side	查询历史显示侧
+Choose the side of the screen that shows recent lookups.	选择最近查询显示在屏幕的哪一侧。
+Use Less Memory for Search	减少搜索内存占用
+Use less memory for ingredient search. Searching will be slower.	减少物品搜索的内存占用，但搜索会变慢。
+Use less memory and search more slowly.	减少内存占用，降低搜索速度。
+Use normal search speed and memory.	使用正常的搜索速度和内存占用。
+Show an error placeholder instead of crashing.	显示错误占位图。
+Let ingredient drawing errors crash the game.	物品绘制出错时让游戏崩溃。
+Ingredient List Sorting	物品列表排序
+Options for ordering ingredients in JEI's ingredient list.	JEI 物品列表的排列选项。
+Ingredient List Sorting Order	物品列表排序规则顺序
+Choose the order of rules JEI uses to sort the ingredient list. Put Ingredient Type first to group item, fluid, and custom ingredient types globally.	选择 JEI 物品列表采用的排序规则顺序。将材料类型放在首位，可在整个列表中分别排列物品、流体和自定义材料类型。
+Show Bookmarked Recipes First	优先显示收藏配方
+Show recipes for bookmarked ingredients before other recipes.	优先显示已收藏物品的配方。
+Put bookmarked recipes first.	将收藏配方排在前面。
+Keep bookmarked recipes in the normal order.	按正常顺序排列收藏配方。
+Show Craftable Recipes First	优先显示可制作配方
+Show recipes with available ingredients before recipes with missing ingredients.	优先显示材料齐全的配方。
+Put craftable recipes first.	将可制作配方排在前面。
+Keep craftable recipes in the normal order.	按正常顺序排列可制作配方。
+Recipe Category Sorting	配方类别排序
+Ordering for JEI recipe category tabs.	JEI 配方类别标签页的排列顺序。
+Recipe Category Sort Order	配方类别排列顺序
+Choose the order that JEI uses for recipe categories.	选择 JEI 配方类别的排列顺序。
+Recipe category ID: %s	配方类别 ID：%s
+Ingredient Mod Sort Order	物品模组排列顺序
+Choose the order that JEI uses for ingredient mod names.	选择 JEI 物品模组名称的排列顺序。
+Ingredients from %s.	来自 %s 的物品。
+Ingredient Type Sort Order	材料类型排列顺序
+Choose the order that JEI uses for ingredient types.	选择 JEI 材料类型的排列顺序。
+Ingredient type class: %s	材料类型类名：%s
+Include advanced tooltip text.	包含高级提示文本。
+Ignore advanced tooltip text.	忽略高级提示文本。
+Include mod IDs.	包含模组 ID。
+Ignore mod IDs.	忽略模组 ID。
+Include extra mod names.	包含额外模组名称。
+Ignore extra mod names.	忽略额外模组名称。
+Include mod name initials.	包含模组名称首字母。
+Ignore mod name initials.	忽略模组名称首字母。
+Include extra ingredient names.	包含额外物品名称。
+Ignore extra ingredient names.	忽略额外物品名称。
+Draw backgrounds behind both lists.	绘制两种列表的背景。
+Hide the backgrounds behind both lists.	隐藏两种列表的背景。
+Use page buttons to move through both lists.	使用翻页按钮浏览两种列表。
+Use scroll bars that move one row at a time.	使用每次滚动一行的滚动条。
+Use scroll bars that move smoothly.	使用平滑滚动条。
+Always Show	始终显示
+Always show navigation controls for both lists.	始终显示两种列表的导航控件。
+Auto Hide	自动隐藏
+Show navigation controls only when a list overflows.	仅在列表内容超出可见区域时显示导航控件。
+Hide navigation controls for both lists.	隐藏两种列表的导航控件。
+Keep navigation aligned to a rectangular grid while allowing excluded slots to be cut out.	将导航对齐到矩形网格，同时允许移除需要避让的槽位。
+Resize and shift navigation around excluded areas to use more space.	调整导航大小与位置以避让排除区域，充分利用空间。
+Top Left	左上
+Top Center	顶部居中
+Top Right	右上
+Center Left	左侧居中
+Center	居中
+Center Right	右侧居中
+Bottom Left	左下
+Log JEI ingredient updates.	记录 JEI 物品更新日志。
+Do not log JEI ingredient updates.	不记录 JEI 物品更新日志。
+Hide extra GUI debugging tools.	隐藏额外界面调试工具。
+Hide extra input debugging tools.	隐藏额外输入调试工具。
+Add debug information to advanced ingredient tooltips.	在物品高级提示中添加调试信息。
+Do not add debug information to ingredient tooltips.	不在物品提示中添加调试信息。
+Do not write search performance information to the log.	不将搜索性能信息写入日志。
+HMMM	嗯……

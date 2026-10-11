@@ -1,5 +1,6 @@
 {
   "itemGroup.sise_core": "SISE Core",
+  "pack.sise_core.localization": "SISE Core · 模组汉化补全",
   "item.sise_core.lesser_technology_core": "次级科技核心",
   "item.sise_core.basic_technology_core": "初级科技核心",
   "item.sise_core.intermediate_technology_core": "中级科技核心",
@@ -15,7 +16,7 @@
   "item.sise_core.private_dimension_teleporter": "私有空间传送器",
   "space.sise_core.title": "私有空间",
   "space.sise_core.owner": "主人：%s",
-  "space.sise_core.use": "右键：进入／返回私有空间",
+  "space.sise_core.use": "右键：进入/返回私有空间",
   "space.sise_core.place": "潜行右键方块：放置入口",
   "space.sise_core.settings_hint": "潜行右键空气：空间设置",
   "space.sise_core.create_void": "创建虚空空间 · 16 × 16 平台",

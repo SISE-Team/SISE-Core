@@ -1,0 +1,7 @@
+{
+  "artifacts.config.client.showArtifactsOnPlayers.description.0": "是否在玩家身上显示佩戴的奇异饰品",
+  "artifacts.config.client.showArtifactsOnPlayers.description.1": "此设置仅影响本地客户端，不改变其他玩家看到的外观",
+  "artifacts.config.client.showArtifactsOnPlayers.title": "显示玩家佩戴的饰品",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.description": "隐身围巾是否阻止所有状态效果生成粒子",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.title": "隐藏效果粒子"
+}

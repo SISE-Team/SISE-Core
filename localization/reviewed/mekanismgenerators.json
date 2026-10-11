@@ -1,0 +1,18 @@
+{
+  "Advanced Solar Generator Energy Capacity": "高级太阳能发电机储能容量",
+  "Base energy capacity of: Advanced Solar Generator": "高级太阳能发电机的基础储能容量",
+  "Bio-Generator Energy Capacity": "生物发电机储能容量",
+  "Base energy capacity of: Bio-Generator": "生物发电机的基础储能容量",
+  "Heat Generator Energy Capacity": "热力发电机储能容量",
+  "Base energy capacity of: Heat Generator": "热力发电机的基础储能容量",
+  "Solar Generator Energy Capacity": "太阳能发电机储能容量",
+  "Base energy capacity of: Solar Generator": "太阳能发电机的基础储能容量",
+  "Wind Generator Energy Capacity": "风力发电机储能容量",
+  "Base energy capacity of: Wind Generator": "风力发电机的基础储能容量",
+  "Fluid Per Biofuel Item": "每个生物燃料的流体量",
+  "How many mB one item of Biofuel adds to the generator's tank. Effectively defines how many ticks an item burns for and the total energy output of the Biofuel item.": "一个生物燃料向发电机储罐加入的流体量（mB），决定燃烧刻数和总发电量。",
+  "Joules Per Steam": "每单位蒸汽焦耳数",
+  "Maximum Joules per tick generated per Steam unit in the Industrial Turbine.": "工业涡轮每单位蒸汽每刻最多产生的焦耳数。",
+  "Steam Divisor": "蒸汽除数",
+  "Divisor for Steam rate to create a Steam unit. The Steam flow will be divided by this amount and then multiplied by the Joules Per Steam amount to calculate the generation rate.": "将蒸汽流量除以此值，再乘以每单位蒸汽焦耳数，计算发电速率。"
+}

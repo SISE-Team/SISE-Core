@@ -1,0 +1,217 @@
+[
+  {
+    "sourceJar": "SISE-JEI-19.57.0.9999-join-fix1-neoforge.jar",
+    "sha256": "f401d9dbedfbc90412450b8c219513a7f751bf0441a02fee280253a903008695",
+    "languageKeys": [
+      "gui.jei.search",
+      "jei.config.client.bookmarkList.layoutMode",
+      "jei.config.client.bookmarkList.layoutMode.description",
+      "jei.config.client.ingredientList.layoutMode",
+      "jei.config.client.ingredientList.layoutMode.description",
+      "jei.config.debug.debug.debugIngredientsEnabled",
+      "jei.config.debug.debug.debugIngredientsEnabled.description",
+      "jei.message.server.recipe.sync.error",
+      "jei.message.server.recipe.sync.jei.missing",
+      "jei.message.server.recipe.sync.unavailable",
+      "key.jei.pauseRecipeCycling",
+      "key.jei.quickMove",
+      "key.jei.shareToChat"
+    ],
+    "declaredLicense": "The MIT License (MIT)",
+    "mods": [
+      {
+        "modId": "jei",
+        "displayName": "Just Enough Items",
+        "authors": "mezz",
+        "displayURL": "https://www.curseforge.com/minecraft/mc-mods/jei"
+      }
+    ]
+  },
+  {
+    "sourceJar": "[农场贸易] farmingforblockheads-neoforge-1.21.1-21.1.13-sise.1.jar",
+    "sha256": "9e9b57f08def15892e6b859bd11dc4ac280fa9da5eca096a4f56e4f9b3b58e1f",
+    "languageKeys": [
+      "block.farmingforblockheads.chicken_nest",
+      "block.farmingforblockheads.feeding_trough",
+      "block.farmingforblockheads.fertilized_farmland_healthy",
+      "block.farmingforblockheads.fertilized_farmland_healthy_stable",
+      "block.farmingforblockheads.fertilized_farmland_rich",
+      "block.farmingforblockheads.fertilized_farmland_rich_stable",
+      "block.farmingforblockheads.fertilized_farmland_stable",
+      "block.farmingforblockheads.market"
+    ],
+    "declaredLicense": "All Rights Reserved",
+    "mods": [
+      {
+        "modId": "farmingforblockheads",
+        "displayName": "Farming for Blockheads",
+        "authors": "BlayTheNinth",
+        "displayURL": "https://mods.twelveiterations.com/minecraft/farming-for-blockheads"
+      }
+    ]
+  },
+  {
+    "sourceJar": "[无尽贪婪·重生] Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar",
+    "sha256": "abb5b3dbaf7c9aef73673041851a3246ac6c3f18a2e2b2aa329e57e927c25df1",
+    "languageKeys": [
+      "gui.avaritia.neutron_ring.preview_size"
+    ],
+    "declaredLicense": "MIT",
+    "mods": [
+      {
+        "modId": "avaritia",
+        "displayName": "Re-Avaritia",
+        "authors": "cnlimiter, IAFEnvoy, Asek3, MikhailTapio, cu6, NadienDev",
+        "displayURL": "https://www.curseforge.com/minecraft/mc-mods/re-avaritia"
+      }
+    ]
+  },
+  {
+    "sourceJar": "[森罗物语·兼容] kaleidoscope_compat-2.9.7-sise-cookery16.2.jar",
+    "sha256": "9dad49523b40bd388fcd519af64087a375d06e6417e694d93a2b69b28890874e",
+    "languageKeys": [
+      "rconfig.color.preset.defaults",
+      "rconfig.color.preset.mc_colors",
+      "rconfig.color.preset.recents",
+      "rconfig.server.desc",
+      "rconfig.server.properties.allow-flight",
+      "rconfig.server.properties.allow-flight.desc",
+      "rconfig.server.properties.enforce-whitelist",
+      "rconfig.server.properties.enforce-whitelist.desc",
+      "rconfig.server.properties.max-players",
+      "rconfig.server.properties.max-players.desc",
+      "rconfig.server.properties.motd",
+      "rconfig.server.properties.motd.desc",
+      "rconfig.server.properties.pvp",
+      "rconfig.server.properties.pvp.desc",
+      "rconfig.server.properties.white-list",
+      "rconfig.server.properties.white-list.desc",
+      "rconfig.server.title",
+      "rconfig.server.wiki",
+      "rconfig.ui.constant.add_item",
+      "rconfig.ui.constant.choose_item",
+      "rconfig.ui.constant.close",
+      "rconfig.ui.constant.edit",
+      "rconfig.ui.constant.edit.list",
+      "rconfig.ui.constant.edit.object",
+      "rconfig.ui.constant.edit.string",
+      "rconfig.ui.constant.mod_configs",
+      "rconfig.ui.constant.mod_configs.description",
+      "rconfig.ui.constant.reset"
+    ],
+    "declaredLicense": "MIT + CC BY-NC-SA 4.0",
+    "mods": [
+      {
+        "modId": "kaleidoscope_compat",
+        "displayName": "Kaleidoscope Compat",
+        "authors": "BmtUltra"
+      }
+    ]
+  },
+  {
+    "sourceJar": "[玉] Jade-1.21.1-NeoForge-15.10.6.jar",
+    "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810",
+    "languageKeys": [
+      "config.jade.plugin_jade.registry_name.special.poi"
+    ],
+    "declaredLicense": "CC-BY-NC-SA-4.0",
+    "mods": [
+      {
+        "modId": "jade",
+        "displayName": "Jade",
+        "authors": "Snownee",
+        "displayURL": "https://www.curseforge.com/minecraft/mc-mods/jade"
+      }
+    ]
+  },
+  {
+    "sourceJar": "[科技·Oritech] oritech-neoforge-1.21.1-1.2.12.jar",
+    "sha256": "317cf2166c0890bb7b207dc0ad1436940a607678c7050e2456be5d2667dc9041",
+    "languageKeys": [
+      "label.oritech.reactor.warning_threshold",
+      "message.oritech.target_designator.connected_poles",
+      "oritech.configuration.absorberRate",
+      "oritech.configuration.accelerationRFCost",
+      "oritech.configuration.acceleratorMotorRFCapacity",
+      "oritech.configuration.additiveAddons",
+      "oritech.configuration.addonMultipliers",
+      "oritech.configuration.animationSpeedMultiplier",
+      "oritech.configuration.bendFactor",
+      "oritech.configuration.blackHoleRequiredSpeed",
+      "oritech.configuration.blockBreakEnergyBase",
+      "oritech.configuration.blockBreakHardnessExponentialFactor",
+      "oritech.configuration.blockBreakSpeed",
+      "oritech.configuration.burstAddonSpeedMultiplier",
+      "oritech.configuration.catalystCostMultiplier",
+      "oritech.configuration.catalystHyperMultiplier",
+      "oritech.configuration.catalystRFPerSoul",
+      "oritech.configuration.damageTickBase",
+      "oritech.configuration.efficiencyAddonEfficiency",
+      "oritech.configuration.energyPipeTransferRate",
+      "oritech.configuration.energyUsage",
+      "oritech.configuration.explosionStrength",
+      "oritech.configuration.fluidPipeExtractIntervalDuration",
+      "oritech.configuration.fuelCapacity",
+      "oritech.configuration.furnaceData",
+      "oritech.configuration.generateOresFabricOnly",
+      "oritech.configuration.generators",
+      "oritech.configuration.idleWaitTicks",
+      "oritech.configuration.itemPipeIntervalDuration",
+      "oritech.configuration.layeredExtenders",
+      "oritech.configuration.lightningCostMultiplier",
+      "oritech.configuration.liquidPerBlockUsage",
+      "oritech.configuration.machineSettings",
+      "oritech.configuration.machineVolumeMultiplier",
+      "oritech.configuration.maxEnergyExtraction",
+      "oritech.configuration.maxEnergyInsertion",
+      "oritech.configuration.maxGateDist",
+      "oritech.configuration.maxUnstableTicks",
+      "oritech.configuration.maxZiplineSpeed",
+      "oritech.configuration.minRange",
+      "oritech.configuration.moveDuration",
+      "oritech.configuration.netherPortalRequiredSpeed",
+      "oritech.configuration.overchargedCrystalChargeRate",
+      "oritech.configuration.poleConfig",
+      "oritech.configuration.portableTankCapacityBuckets",
+      "oritech.configuration.range",
+      "oritech.configuration.reactorMaxEnergyOutput",
+      "oritech.configuration.reactorMaxEnergyStored",
+      "oritech.configuration.rfPerPulse",
+      "oritech.configuration.safeModeCooldown",
+      "oritech.configuration.smallEnergyStorage",
+      "oritech.configuration.spawnerCostMultiplier",
+      "oritech.configuration.speedAddonSpeed",
+      "oritech.configuration.speedMultiplier",
+      "oritech.configuration.startup",
+      "oritech.configuration.steamToRfRatio",
+      "oritech.configuration.stopOnEnergyFull",
+      "oritech.configuration.storageBlocks",
+      "oritech.configuration.superConductorTransferRate",
+      "oritech.configuration.tachyonCollisionEnergyFactor",
+      "oritech.configuration.tankSizeInBuckets",
+      "oritech.configuration.tightCableHitboxes",
+      "oritech.configuration.tightMachineAddonHitboxes",
+      "oritech.configuration.tightMachineFrameHitboxes",
+      "oritech.configuration.ultimateAddonEfficiency",
+      "oritech.configuration.ultimateAddonSpeed",
+      "oritech.configuration.ventRelativeRate",
+      "oritech.configuration.ziplineAcceleration",
+      "oritech.configuration.ziplineCameraSwitch",
+      "title.oritech.redstone_addon",
+      "tooltip.oritech.hangar_door.2",
+      "tooltip.oritech.machine.quality",
+      "tooltip.oritech.mode_sided_slot_number",
+      "tooltip.oritech.tank_content",
+      "tooltip.oritech.tank_empty",
+      "tooltip.oritech.wrench"
+    ],
+    "declaredLicense": "CC0-1.0",
+    "mods": [
+      {
+        "modId": "oritech",
+        "displayName": "Oritech",
+        "authors": "Me! - Rearth"
+      }
+    ]
+  }
+]

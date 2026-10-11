@@ -1,0 +1,17 @@
+{
+  "FTB Quests (GUI)": "FTB 任务（界面）",
+  "FTB Quests (GUI Editor Mode)": "FTB 任务（界面编辑模式）",
+  "FTB Quests (Quest View Panel)": "FTB 任务（任务查看面板）",
+  "Pinned Quest Tracker Visibility": "固定任务追踪器可见性",
+  "Force-complete Hovered": "强制完成指向的任务",
+  "Force-reset Hovered": "强制重置指向的任务",
+  "Save Quests Now": "立即保存任务",
+  "Team Reward by Type": "按类型发放队伍奖励",
+  "Shortcut: Alt + Left Mouse Button": "快捷操作：Alt + 鼠标左键",
+  "Insert Hovered Tooltip": "插入指向的提示文本",
+  "Ctrl + A: select all": "Ctrl + A：全选",
+  "Ctrl + D / Esc: deselect all": "Ctrl + D / Esc：取消全选",
+  "Ctrl + Arrow keys: move selected": "Ctrl + 方向键：移动选中项",
+  "Progression pause for player '%s' set to: %s": "玩家“%s”的进度暂停已设为：%s",
+  "Hovered tooltip": "指向的提示文本"
+}

@@ -1,0 +1,8 @@
+{
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list": "去除打乱后模板池元素列表的重复项",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list.desc": "选择替代策略，通过移除结构从模板池选取的重复部件，进一步加快结构布局生成。\n不会破坏结构生成，但生成布局会与关闭此选项时不同，因此无法保持原版种子一致性。包含大量高权重模板池的整合包可能受益。\n\n优点：高权重模板池结构的性能略有提升。\n缺点：结构布局不再与原版种子一致；结构仍能正常生成。",
+  "config.structure_layout_optimizer.desc": "尝试优化拼图结构生成",
+  "config.structure_layout_optimizer.link.bug_report": "报告问题",
+  "config.structure_layout_optimizer.link.license": "许可证",
+  "config.structure_layout_optimizer.title": "结构布局优化器"
+}

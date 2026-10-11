@@ -1,0 +1,6 @@
+{
+  "gui.xaero_pac_add_claiming_anchor": "添加领地锚点",
+  "gui.xaero_pac_remove_claiming_anchor": "移除领地锚点",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line1": "移除此领地锚点，以及仅在其范围内的全部领地？",
+  "gui.xaero_pac_remove_claiming_anchor_confirm_line2": "此操作无法撤销！锚点区块：%1$s"
+}

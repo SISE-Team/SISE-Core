@@ -1,0 +1,9 @@
+{
+  "config.betterf3.performance_optimizations": "性能优化",
+  "config.betterf3.performance_optimizations.tooltip": "缓存模块文本，仅在数值改变时刷新。",
+  "format.betterf3.fps": "%s 帧/秒 / %s 帧/秒 %s",
+  "text.betterf3.line.fps_tps": "帧率 / 刻率（Alt+F3）",
+  "text.betterf3.line.fps_tps_new": "帧率 / 刻率（F3+2）",
+  "text.betterf3.line.minecraft": "Minecraft",
+  "text.betterf3.module.minecraft": "Minecraft"
+}

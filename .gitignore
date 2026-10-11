@@ -3,6 +3,6 @@ build/
 run*/
 *.log
 tool/
-tools/
-docs/
-*.ps1
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "attribute.name.generic.slashblade_damage": "SlashBlade Damage",
+  "entity.slashblade.abstract_summoned_sword": "Summoned Sword",
+  "entity.slashblade.blade_item_entity": "Blade",
+  "entity.slashblade.blade_stand_entity": "Blade Stand",
+  "entity.slashblade.blistering_swords": "Blistering Swords",
+  "entity.slashblade.drive": "Drive",
+  "entity.slashblade.heavy_rain_swords": "Heavy Rain Swords",
+  "entity.slashblade.judgement_cut": "Judgement Cut",
+  "entity.slashblade.place_preview_entity": "Blade Stand Placement Preview",
+  "entity.slashblade.slash_effect": "Slash Effect",
+  "entity.slashblade.spiral_swords": "Spiral Swords",
+  "entity.slashblade.storm_swords": "Storm Swords"
+}

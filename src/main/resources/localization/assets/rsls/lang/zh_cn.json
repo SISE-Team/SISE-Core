@@ -1,0 +1,4 @@
+{
+  "options.rsls.maxSourcesCount": "总声音数量上限",
+  "options.rsls.maxStreamingSources": "流式声音数量上限"
+}
