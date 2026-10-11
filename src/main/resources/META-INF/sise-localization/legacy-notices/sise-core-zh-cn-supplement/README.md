@@ -1,6 +1,6 @@
-# Project01 简体中文汉化补充包
+# SISE Core 简体中文汉化补充包
 
-适用环境：Minecraft 1.21.1 / NeoForge，针对 Project01 当前模组组合制作。
+适用环境：Minecraft 1.21.1 / NeoForge，针对 SISE Core 当前模组组合制作。
 
 这是增量补充包，不是所有模组的完整汉化。详细已补数量、原始缺漏和待补条目见整合包根目录的 `汉化检查报告.md` 与 `汉化待补条目.json`。
 

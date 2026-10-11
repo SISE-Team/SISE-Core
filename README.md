@@ -4,7 +4,7 @@
 
 SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用基础功能放在一起，安装后即可使用。
 
-[下载模组](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.1%2B26.1.2) · [使用个人空间](#使用个人空间) · [参与贡献](CONTRIBUTING.md) · [报告问题](https://github.com/SISE-Team/SISE-Core/issues/new/choose)
+[下载模组](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.2%2B26.1.2) · [使用个人空间](#使用个人空间) · [参与贡献](CONTRIBUTING.md) · [报告问题](https://github.com/SISE-Team/SISE-Core/issues/new/choose)
 
 ## 你会得到什么
 
@@ -24,10 +24,10 @@ SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用�
 | Minecraft | **26.1.2** |
 | NeoForge | **26.1.2.114** 或更高的 26.1.2 系列版本 |
 | Java | **25** |
-| Core | **0.1.1+26.1.2** |
+| Core | **0.1.2+26.1.2** |
 | 开发主分支 | [`26.1.2`](https://github.com/SISE-Team/SISE-Core/tree/26.1.2) |
 
-1. 从[发布页](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.1%2B26.1.2)下载 `SISE-Core-0.1.1+26.1.2.jar`。
+1. 从[发布页](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.2%2B26.1.2)下载 `SISE-Core-0.1.2+26.1.2.jar`。
 2. 放入实例的 `mods` 文件夹。同一实例只保留一个 Core 版本。
 3. 启动游戏。联机时，客户端与服务端安装相同版本的 Core。
 
@@ -68,6 +68,8 @@ SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用�
 
 本版完成材料、个人空间、资源优化和汉化补全。旧版的枪械天赋、指南枢纽、L2 超频联动、清理功能及高级地形编辑尚未迁移。材料的生产链由整合包配方决定；旧版 1.21.1 空间没有自动转换工具。
 
+从 0.1.2 起，材料统一使用 `sise_core` 命名空间，旧物品命名空间的兼容别名已移除。仍使用旧命名空间的存档，需要先迁移物品 ID 再升级。
+
 小地图位置与快捷键由整合包实例配置管理。Core 不会在启动时覆盖玩家的按键或小地图设置。
 
 ## 从源码构建
@@ -103,4 +105,4 @@ Linux / macOS：
 
 代码与原创文档采用 [MIT](LICENSE)。内置第三方汉化保留各自的原协议与署名，其中社区汉化包含 **CC BY-NC-SA 4.0** 内容。详见[许可范围与来源](NOTICE.md)和[内置汉化声明](src/main/resources/META-INF/sise-localization/NOTICE.md)。
 
-感谢 Project01、viking602、CFPA 社区，以及提供原始翻译的模组作者与贡献者。
+感谢 CFPA 社区，以及提供原始翻译的模组作者与贡献者。

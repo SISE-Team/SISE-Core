@@ -2,7 +2,7 @@
 
 ## 代码与原创文档
 
-SISE Core 的代码与原创文档采用 [MIT](LICENSE)。保留 Project01 的原始版权声明，并记录 SISE Team 与贡献者的后续贡献。项目由 viking602 维护。
+SISE Core 的代码与原创文档采用 [MIT](LICENSE)，版权归 SISE Team 与贡献者所有。项目由 viking602 维护。
 
 ## 内置汉化
 

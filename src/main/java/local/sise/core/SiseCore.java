@@ -22,7 +22,6 @@ public final class SiseCore {
         "paradox_hybrid_orb", "infinite_sanity_unit", "rare_mystic_crystal", "twilight_pioneer", "gun_soul_smithing_template");
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ID);
     public static final List<DeferredItem<Item>> MATERIALS = MATERIAL_IDS.stream().map(name -> {
-        ITEMS.addAlias(Identifier.fromNamespaceAndPath("project01_core", name), id(name));
         return ITEMS.registerSimpleItem(name);
     }).toList();
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ID);

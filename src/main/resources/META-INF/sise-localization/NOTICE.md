@@ -10,7 +10,7 @@ retain their respective original licenses, independently of the Java implementat
   preserves formatting parameters. New and revised translations are stored in
   localization/overrides and localization/reviewed in the Core source repository.
 - The user's existing SISE Core 0.4.45-unify1-client translation supplement and
-  installed project01 bilingual mod resources supplied additional matching keys.
+  previously installed bilingual mod resources supplied additional matching keys.
   Original bundled notices and licenses are preserved under legacy-notices/.
   Additional source JAR attribution is recorded in mod-resource-sources.json,
   with available original license documents under mod-resource-licenses/.
