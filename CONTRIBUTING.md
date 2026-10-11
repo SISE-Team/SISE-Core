@@ -38,7 +38,7 @@ git switch -c fix/private-space-return
 | 改动 | 验证方式 |
 | --- | --- |
 | 文档 | 检查链接、命令、版本与 GitHub 显示效果。 |
-| 汉化 | 运行 `python tools/check_localization.py`，并在对应游戏界面确认文本与排版。 |
+| 汉化 | 核对 JSON、语言键和格式参数，并在对应游戏界面确认文本与排版。详见[汉化维护](docs/LOCALIZATION.md)。 |
 | Java、数据或构建配置 | 运行 `build`；涉及游戏行为时运行相关 GameTest。涉及界面、资源加载或跨维度移动时，再做客户端验证。 |
 
 Windows PowerShell：

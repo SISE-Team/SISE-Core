@@ -1,18 +1,17 @@
 # 开发与验证
 
-主分支：**`26.1.2`**。构建环境：**JDK 25**，Gradle Wrapper **9.2.1**。汉化检查使用 Python **3.10 或更高版本**，无需额外 Python 依赖。
+主分支：**`26.1.2`**。构建环境：**JDK 25**，Gradle Wrapper **9.2.1**。
 
 ## 构建
 
 在仓库根目录执行：
 
 ```powershell
-python tools/check_localization.py
 .\gradlew.bat build
 .\gradlew.bat runGameTestServer
 ```
 
-Linux / macOS 将 `.\gradlew.bat` 替换为 `./gradlew`。首次构建需要联网；依赖缓存齐全后可加 `--offline`。CI 检查汉化并构建模组；游戏行为的验证结果请写进 Pull Request。
+Linux / macOS 将 `.\gradlew.bat` 替换为 `./gradlew`。首次构建需要联网；依赖缓存齐全后可加 `--offline`。CI 构建模组；汉化和游戏行为的验证结果请写进 Pull Request。
 
 产物位于 `build/libs/`。发布 JAR 内包含代码许可、总声明和第三方汉化来源记录。
 
