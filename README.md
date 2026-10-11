@@ -1,10 +1,10 @@
 # SISE Core
 
-**中文补全、个人空间与进度材料。整合包的共同基础。**
+**中文补全、经验优化、个人空间与进度材料。整合包的共同基础。**
 
 SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用基础功能放在一起，安装后即可使用。
 
-[下载模组](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.2%2B26.1.2) · [使用个人空间](#使用个人空间) · [参与贡献](CONTRIBUTING.md) · [报告问题](https://github.com/SISE-Team/SISE-Core/issues/new/choose)
+[下载模组](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.3%2B26.1.2) · [使用个人空间](#使用个人空间) · [参与贡献](CONTRIBUTING.md) · [报告问题](https://github.com/SISE-Team/SISE-Core/issues/new/choose)
 
 ## 你会得到什么
 
@@ -13,6 +13,7 @@ SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用�
 | 简体中文补全 | 物品、菜单与配置项的汉化随 Core 自动加载。无需另装汉化资源包。 |
 | 个人空间 | 每位玩家拥有独立维度，可选择虚空或草地，也可邀请成员或开放访问。 |
 | 进度材料 | 提供 11 种材料，供整合包连接配方与进度。 |
+| 经验球优化 | 一次奖励生成一个大经验球，附近普通球合并，接触后快速吸收。大额经验保留完整数值。 |
 | 资源与粒子优化 | 为 ZIP 资源查询建立目录索引，将单个伤害粒子数据包限制为最多 64 个粒子。 |
 
 本版汉化补充 **5,909 条文本，覆盖 134 个命名空间**。这些数据来自目标整合包的 206 个模组 JAR 审核，含内嵌依赖。升级或新增模组后，需要重新核对语言键；硬编码文本也需要对应模组适配。
@@ -24,14 +25,22 @@ SISE Core 是面向 Minecraft **26.1.2** 的 NeoForge 核心模组。把常用�
 | Minecraft | **26.1.2** |
 | NeoForge | **26.1.2.114** 或更高的 26.1.2 系列版本 |
 | Java | **25** |
-| Core | **0.1.2+26.1.2** |
+| Core | **0.1.3+26.1.2** |
 | 开发主分支 | [`26.1.2`](https://github.com/SISE-Team/SISE-Core/tree/26.1.2) |
 
-1. 从[发布页](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.2%2B26.1.2)下载 `SISE-Core-0.1.2+26.1.2.jar`。
+1. 从[发布页](https://github.com/SISE-Team/SISE-Core/releases/tag/v0.1.3%2B26.1.2)下载 `SISE-Core-0.1.3+26.1.2.jar`。
 2. 放入实例的 `mods` 文件夹。同一实例只保留一个 Core 版本。
 3. 启动游戏。联机时，客户端与服务端安装相同版本的 Core。
 
 使用汉化时，在游戏语言设置中选择「简体中文」。Core 会在启动和资源重载时自动启用内置汉化包。游戏运行时无需联网下载翻译。
+
+## 经验球优化
+
+默认启用。每次经验奖励直接生成一个球，1 米内的普通经验球可合并；沿用原版吸引与接触范围，每位玩家每 tick 最多处理 32 次拾取。百万点经验无需逐个吸收小球。
+
+保留经验事件和修补行为，适配 Curios 饰品修补与 EnderIO 经验收集器。收集器容量不足时，只消耗能存入的整点经验，剩余经验留在球中。带名称、标签或自定义持久数据的球不参与合并。
+
+合并后，按球计数或取整的模组效果会以整个经验包为单位触发。排查兼容问题时，可添加 JVM 参数 `-Dsise.core.xp.disabled=true`，然后重启；已存档的大球仍保留完整经验。详见[经验球行为与验证](docs/EXPERIENCE.md)。
 
 ## 使用个人空间
 

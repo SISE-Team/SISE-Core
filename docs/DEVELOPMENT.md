@@ -22,7 +22,8 @@ Linux / macOS 将 `.\gradlew.bat` 替换为 `./gradlew`。首次构建需要联�
 | `src/main/java/local/sise/core/SiseCore.java` | 注册材料、入口与其他基础内容。 |
 | `src/main/java/local/sise/core/space/` | 个人空间、权限、传送、菜单与持久化。 |
 | `src/main/java/local/sise/core/localization/` | 内置汉化资源包的注册与自动启用。 |
-| `src/main/java/local/sise/core/mixin/` | 资源索引与粒子优化。 |
+| `src/main/java/local/sise/core/mixin/` | 经验球、兼容处理、资源索引与粒子优化。 |
+| `src/main/java/local/sise/core/xp/` | 经验球合并、拾取预算、精度与整点流体转换。 |
 | `src/main/java/local/sise/core/verification/` | GameTest 与显式启用的客户端验证。 |
 | `localization/` | 汉化维护源文件与英文核对快照。 |
 | `src/main/resources/localization/assets/` | 随模组打包的语言资源。 |
@@ -38,6 +39,8 @@ Gradle 运行目录位于仓库的相邻文件夹：
 | `runGameTestServer` | `../test-sise-core-gametest` |
 
 这些实例只用于测试。首次运行服务端时，按其提示处理 EULA。不要指向正在使用的正式实例或正式存档。
+
+经验球测试覆盖大额奖励、十万小球合并、溢出保护、存档与网络编码、等级精度、修补、经验事件、拾取预算与回退开关。可用 `-PxpCompatFixtures=<含模组 JAR 的目录>` 加载 Curios 和 EnderIO 测试依赖，执行相应兼容检查；它们不会打包进 Core。
 
 GameTest 覆盖材料与配方、传送器绑定、权限与返回位置、菜单约束、两种地形和资源索引。改动相应功能时，运行对应检查。涉及持久化时，再验证创建、进入、返回、重启与重新进入；涉及界面时，确认菜单操作与资源重载后的行为。
 

@@ -41,8 +41,10 @@ public final class SiseCore {
     public SiseCore(IEventBus bus) {
         ITEMS.register(bus); BLOCKS.register(bus); ENTITIES.register(bus); TABS.register(bus);
         SpaceRuntime.register(NeoForge.EVENT_BUS);
+        local.sise.core.xp.XpMerge.register();
         bus.addListener(local.sise.core.localization.CoreLocalization::addPack);
         bus.addListener(local.sise.core.verification.CoreGameTests::register);
+        bus.addListener(local.sise.core.verification.XpGameTests::register);
         if(net.neoforged.fml.loading.FMLEnvironment.getDist().isClient()) {
             local.sise.core.verification.CoreClientProbe.register();
             local.sise.core.verification.LocalizationClientProbe.register();

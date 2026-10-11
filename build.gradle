@@ -17,6 +17,13 @@ neoForge {
     mods { sise_core { sourceSet sourceSets.main } }
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+// Optional, local test fixtures. No other mods are bundled with Core.
+if (providers.gradleProperty('xpCompatFixtures').isPresent()) {
+    dependencies {
+        runtimeOnly fileTree(dir: providers.gradleProperty('xpCompatFixtures').get(),
+            include: ['curios-*.jar', 'enderio-*.jar'])
+    }
+}
 def metadata = [version: project.version.toString()]
 processResources {
     inputs.properties metadata

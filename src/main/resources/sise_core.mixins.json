@@ -6,7 +6,12 @@
   "mixins": [
     "SpaceServerAccess",
     "SpaceTravelMixin",
-    "FilePackIndexMixin"
+    "FilePackIndexMixin",
+    "OrbAccessMixin",
+    "OrbMixin",
+    "PlayerXpMixin",
+    "CuriosXpMixin",
+    "EnderIoXpMixin"
   ],
   "client": [
     "DamageParticleLimitMixin"
